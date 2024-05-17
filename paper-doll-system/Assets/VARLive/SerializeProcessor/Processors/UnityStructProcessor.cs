@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VAR.Tool
+namespace Ez.Tool
 {
 	/// <summary>
 	/// unity內置型別

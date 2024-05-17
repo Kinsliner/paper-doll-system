@@ -12,7 +12,7 @@ namespace Ez.Tool
 {
     public class ConstKeysGeneratorWindow : EditorWindow
 	{
-		public const string NamespaceName = "VARLive.Tool";
+		public const string NamespaceName = "Ez.Tool";
 
         private static List<ConstKeysGenerator> generators = new List<ConstKeysGenerator>();
 

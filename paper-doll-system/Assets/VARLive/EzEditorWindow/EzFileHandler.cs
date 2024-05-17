@@ -2,7 +2,7 @@
 using UnityEngine;
 using Ez;
 
-namespace Ez.Editor
+namespace Ez.EzEditor
 {
     public class EzFileHandler : IPath, IDataParser
     {

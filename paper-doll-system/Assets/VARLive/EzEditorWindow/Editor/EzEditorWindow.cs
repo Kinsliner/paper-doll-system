@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using Ez;
 
-namespace Ez.Editor
+namespace Ez.EzEditor
 {
     public class EzEditorWindow : EditorWindow
     {

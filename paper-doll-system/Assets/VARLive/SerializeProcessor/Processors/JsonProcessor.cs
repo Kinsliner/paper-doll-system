@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace VAR.Tool
+namespace Ez.Tool
 {
     public class JsonProcessor : SerializeProcessor
     {

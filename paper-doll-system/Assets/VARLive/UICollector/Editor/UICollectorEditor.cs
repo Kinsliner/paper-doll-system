@@ -389,7 +389,7 @@ namespace Ez.Tool
             AssetDatabase.Refresh();
         }
 
-        private const string NamespaceName = "VARLive.Tool";
+        private const string NamespaceName = "Ez.Tool";
         private static void CreateConstSctipt(string className, List<string> keys)
         {
             GeneratorClassSetting classSetting = new GeneratorClassSetting();

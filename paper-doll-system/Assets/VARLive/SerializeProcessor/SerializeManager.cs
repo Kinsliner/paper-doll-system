@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VAR.Tool;
+using Ez.Tool;
 
 public static class SerializeManager
 {

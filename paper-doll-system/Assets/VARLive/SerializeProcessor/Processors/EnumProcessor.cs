@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VAR.Tool
+namespace Ez.Tool
 {
     public class EnumProcessor : SerializeProcessor
     {
