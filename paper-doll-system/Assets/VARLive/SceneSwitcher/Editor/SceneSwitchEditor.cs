@@ -5,7 +5,7 @@ using UnityEditor.SceneManagement;
 using System;
 using UnityEngine.SceneManagement;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
     public class SceneSwitchEditor : EditorWindow
     {

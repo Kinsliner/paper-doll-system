@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace VARLive.Console
+namespace Ez.Console
 {
     public class ConsoleUI : MonoBehaviour
     {

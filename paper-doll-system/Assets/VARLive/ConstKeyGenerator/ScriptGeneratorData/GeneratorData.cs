@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
 	public class NamespaceGeneratorData : GeneratorData
 	{

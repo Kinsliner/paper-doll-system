@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using VARLive.Tool;
+using Ez.Tool;
 
 public class UICollectorHelper
 {

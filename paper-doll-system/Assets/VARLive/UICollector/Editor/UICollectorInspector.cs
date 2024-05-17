@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
     [CustomEditor(typeof(UICollector))]
     public class UICollectorInspector : Editor

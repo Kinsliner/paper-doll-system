@@ -7,10 +7,10 @@ using Debug = UnityEngine.Debug;
 public class DebugPlus
 {
     /// <summary>
-    /// °£¿ù»PÃB¥~°ïÅ|°lÂÜ¥\¯à (°õ¦æ¶¶§Ç 9.8.7...1)
+    /// é™¤éŒ¯èˆ‡é¡å¤–å †ç–Šè¿½è¹¤åŠŸèƒ½ (åŸ·è¡Œé †åº 9.8.7...1)
     /// </summary>
-    /// <param name="message">°T®§</param>
-    /// <param name="skipFrames">°lÂÜ¼Æ¶q</param>
+    /// <param name="message">è¨Šæ¯</param>
+    /// <param name="skipFrames">è¿½è¹¤æ•¸é‡</param>
     public static void Log(string message, int skipFrames = 20)
     {
         message = $"<color=#f6cee8>{message}</color>\n";
@@ -21,9 +21,9 @@ public class DebugPlus
             {
                 StackTrace stackTrace = new(i + 1, true);
                 StackFrame stack = stackTrace.GetFrame(0);
-                message += $"\n______________________________¡i({index}).  <color=#f6cee8>{stack.GetMethod().DeclaringType.Name}</color>¡j______________________________";
-                message += $"\n°lÂÜ¦æ¼Æ : {stack.GetFileLineNumber()}";
-                message += $"\n¤èªk : <a href=\"{stack.GetFileName()}\" line=\"{stack.GetFileLineNumber()}\">{MethodColorSwitch(stack.GetMethod().ToString())}</a>\n";
+                message += $"\n______________________________ã€({index}).  <color=#f6cee8>{stack.GetMethod().DeclaringType.Name}</color>ã€‘______________________________";
+                message += $"\nè¿½è¹¤è¡Œæ•¸ : {stack.GetFileLineNumber()}";
+                message += $"\næ–¹æ³• : <a href=\"{stack.GetFileName()}\" line=\"{stack.GetFileLineNumber()}\">{MethodColorSwitch(stack.GetMethod().ToString())}</a>\n";
                 index++;
             }
             catch (System.Exception)

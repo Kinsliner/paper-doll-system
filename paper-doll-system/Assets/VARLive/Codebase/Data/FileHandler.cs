@@ -1,7 +1,8 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
-namespace VARLive
+namespace Ez
 {
     public interface IPath
     {
@@ -115,6 +116,22 @@ namespace VARLive
             }
         }
 
+        public string LoadAsText<T>()
+        {
+            string filePath = GetFilePath<T>();
+            if (File.Exists(filePath))
+            {
+                using (StreamReader reader = new StreamReader(filePath))
+                {
+                    return reader.ReadToEnd();
+                }
+            }
+            else
+            {
+                return string.Empty;
+            }
+        }
+
         public T Load<T>() where T : new()
         {
             string filePath = GetFilePath<T>();
@@ -142,6 +159,26 @@ namespace VARLive
                 Save(filePath, fileClass);
                 return fileClass;
             }
+        }
+
+        public List<T> LoadAll<T>() where T : new()
+        {
+            List<T> list = new List<T>();
+            string dir = path.GetPath();
+            if (Directory.Exists(dir))
+            {
+                string[] files = Directory.GetFiles(dir, $"*{parser.GetExtension()}");
+                foreach (string file in files)
+                {
+                    using (StreamReader reader = new StreamReader(file))
+                    {
+                        string fileText = reader.ReadToEnd();
+                        T setting = parser.ParseFrom<T>(fileText);
+                        list.Add(setting);
+                    }
+                }
+            }
+            return list;
         }
 
         private string GetFilePath<T>()

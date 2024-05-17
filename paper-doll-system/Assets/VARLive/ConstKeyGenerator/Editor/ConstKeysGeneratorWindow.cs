@@ -8,7 +8,7 @@ using System.Text;
 using System.Linq;
 using System.Reflection;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
     public class ConstKeysGeneratorWindow : EditorWindow
 	{

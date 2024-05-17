@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Text;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
 	public abstract class GeneratorData
 	{

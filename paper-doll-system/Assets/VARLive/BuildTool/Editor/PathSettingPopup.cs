@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System;
 
-namespace VARLive.Build
+namespace Ez.Build
 {
 	public class PathSettingPopup : PopupWindowContent
     {

@@ -3,7 +3,7 @@ using UnityEditor;
 using System.Linq;
 using System;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
     public class BuildScenesConstKeysGenerator : ConstKeysGenerator
     {

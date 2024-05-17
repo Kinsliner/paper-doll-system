@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
     [System.Serializable]
     public class UICollectorKeys

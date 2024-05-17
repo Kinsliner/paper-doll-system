@@ -6,7 +6,7 @@ using System.Linq;
 using System.Collections;
 using System;
 
-namespace VARLive.Build
+namespace Ez.Build
 {
     public enum CopyType
 	{

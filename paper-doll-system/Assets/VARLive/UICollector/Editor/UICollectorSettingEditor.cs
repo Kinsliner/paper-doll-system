@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using VARLive.Tool;
+using Ez.Tool;
 
 [CustomEditor(typeof(UICollectorSetting))]
 public class UICollectorSettingEditor : Editor

@@ -2,7 +2,7 @@
 using System.IO;
 using UnityEngine;
 
-namespace VARLive.Build
+namespace Ez.Build
 {
 	[Serializable]
     public class BuildToolSetting

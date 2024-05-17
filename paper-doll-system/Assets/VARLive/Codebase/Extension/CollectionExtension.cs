@@ -131,7 +131,7 @@ public static class CollectionExtension
     public static List<T> RandomPick<T>(this List<T> list, int count)
     {
         List<T> result = new List<T>();
-        if (count > 0)
+        if (count > 0 && list.Count > 0)
         {
             result.AddRange(list);
             result.Shuffle();

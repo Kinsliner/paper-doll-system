@@ -2,7 +2,7 @@
 using UnityEditor;
 using System.Collections;
 
-namespace VARLive.Build
+namespace Ez.Build
 {
 	public class BuildTypeMaskPopup : PopupWindowContent
 	{

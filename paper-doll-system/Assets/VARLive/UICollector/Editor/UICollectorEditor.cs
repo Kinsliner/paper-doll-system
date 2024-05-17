@@ -5,7 +5,7 @@ using UnityEditor;
 using System.IO;
 using System.Linq;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
     public class EditorUIAsset
     {

@@ -84,6 +84,7 @@ public static class PoolManager
 
         var clone = pool.GetItem();
         clone.transform.SetPositionAndRotation(position, rotation);
+        clone.transform.localScale = Vector3.one;
         clone.SetActive(true);
 
         usingPools.Add(clone, pool);

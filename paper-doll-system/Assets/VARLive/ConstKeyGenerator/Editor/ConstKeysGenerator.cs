@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
     public abstract class ConstKeysGenerator
 	{

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
     public class TableKeyGeneratorData_Int : TableKeyGeneratorData<int>
     {

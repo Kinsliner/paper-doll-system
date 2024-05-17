@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VARLive.Tool;
+using Ez.Tool;
 
 public class NamespaceGenerator : ScriptGenerator
 {

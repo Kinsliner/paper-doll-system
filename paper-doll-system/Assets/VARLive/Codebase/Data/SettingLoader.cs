@@ -1,8 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-using VARLive;
+using Ez;
 
 public class SettingLoader : IPath, IDataParser
 {
@@ -35,6 +36,11 @@ public class SettingLoader : IPath, IDataParser
         return JsonUtility.ToJson(data, true);
     }
     #endregion
+
+    public string GetName(Type type)
+    {
+        return type.Name;
+    }
 
     public static T Load<T>() where T : new()
     {

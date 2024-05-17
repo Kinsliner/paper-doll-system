@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VARLive
+namespace Ez
 {
 	/// <summary>
 	/// 把一行一行的路徑轉成資料夾樹

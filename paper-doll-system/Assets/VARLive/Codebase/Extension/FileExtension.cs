@@ -6,11 +6,10 @@ using UnityEngine;
 public static class FileExtension
 {
     /// <summary>
-    /// �ɮק�W
+    /// 檔案改名
     /// </summary>
     public static void Rename(this FileInfo file, string newName)
     {
-        //check null
         if (file == null)
         {
             return;

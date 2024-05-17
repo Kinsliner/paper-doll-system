@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
 	public abstract class ScriptGenerator
 	{

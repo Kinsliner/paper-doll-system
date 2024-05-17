@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace VARLive.Tool
+namespace Ez.Tool
 {
     public static class UICollectorSettingLoader
     {

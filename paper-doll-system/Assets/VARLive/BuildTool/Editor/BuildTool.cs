@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using UnityEngine;
 
-namespace VARLive.Build
+namespace Ez.Build
 {
     public static class BuildTool
     {
