@@ -2,6 +2,7 @@ using Ez;
 using Ez.EzEditor;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class StreamingAssetPath : IPath
@@ -29,7 +30,7 @@ public class StreamingAssetPath : IPath
 
     public string GetPath()
     {
-        return Application.streamingAssetsPath;
+        return Path.Combine(Application.streamingAssetsPath, "GameData");
     }
 }
 
