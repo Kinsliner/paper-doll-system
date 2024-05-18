@@ -71,7 +71,7 @@ namespace Ez.Tool
         private static string relativeEditorPath;
 
 
-        [MenuItem("VAR Live/UI Collector/UI Collector Window %#U")]
+        [MenuItem("Tools/UI Collector/UI Collector Window %#U")]
         public static void ShowWindow()
         {
             var window = GetWindow<UICollectorEditor>("UI Collector");

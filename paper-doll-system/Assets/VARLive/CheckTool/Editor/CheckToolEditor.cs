@@ -41,7 +41,7 @@ public class CheckToolEditor : EditorWindowExtender
     private Vector2 checkersScrollPos;
     private Vector2 processersScrollPos;
 
-    [MenuItem("VAR Live/檢查小工具")]
+    [MenuItem("Tools/檢查小工具")]
     private static void ShowWindow()
     {
         var window = GetWindow<CheckToolEditor>("檢查小工具");

@@ -6,7 +6,7 @@ using Ez.Tool;
 
 public class UICollectorHelper
 {
-    [MenuItem("VAR Live/UI Collector/GetAssetKey %#k")]
+    [MenuItem("Tools/UI Collector/GetAssetKey %#k")]
     private static void GetAssetKey()
     {
         GameObject selectObject = Selection.activeGameObject;

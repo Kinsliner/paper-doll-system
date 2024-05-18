@@ -14,7 +14,7 @@ public class AssetBoardEditor : EditorWindowExtender
     private GUILayout.ScrollViewScope scrollViewScope;
     private Vector2 scrollPos;
 
-    [MenuItem("VAR Live/Asset Board %Q")]
+    [MenuItem("Tools/Asset Board %Q")]
     public static void ShowWindow()
     {
         var window = CreateInstance<AssetBoardEditor>();

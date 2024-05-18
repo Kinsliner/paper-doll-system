@@ -19,7 +19,7 @@ namespace Ez.Tool
         private GUILayout.ScrollViewScope scrollViewScope;
         private Vector2 scrollPos;
 
-        [MenuItem ("VAR Live/Const Keys Generator")]
+        [MenuItem ("Tools/Const Keys Generator")]
 		public static ConstKeysGeneratorWindow ShowWindow () 
 		{
 			var window = GetWindow<ConstKeysGeneratorWindow> ("常數表產生工具");

@@ -38,7 +38,7 @@ namespace Ez.Build
 		
 		private static BuildTypeMaskPopup buildTypeBuildSelectMaskPopup = new BuildTypeMaskPopup();
 
-		[MenuItem("VAR Live/Build Tool %#T")]
+		[MenuItem("Tools/Build Tool %#T")]
 		private static void ShowWindow()
 		{
 			LoadSetting();

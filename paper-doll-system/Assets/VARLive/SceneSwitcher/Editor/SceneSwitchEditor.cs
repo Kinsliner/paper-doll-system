@@ -11,7 +11,7 @@ namespace Ez.Tool
     {
         private List<string> scenes = new List<string>();
 
-        [MenuItem("VAR Live/Scene Switcher %W")]
+        [MenuItem("Tools/Scene Switcher %W")]
         public static void ShowWindow()
         {
             GetWindow<SceneSwitchEditor>("Scenewitcher");
