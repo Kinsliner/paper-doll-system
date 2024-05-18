@@ -1,5 +1,5 @@
 {
-    "name": "VARLive.Tool.Editor",
+    "name": "Ez.Tool.Editor",
     "rootNamespace": "",
     "references": [
         "GUID:837f1cf0072a83141928a639128b56d2"
