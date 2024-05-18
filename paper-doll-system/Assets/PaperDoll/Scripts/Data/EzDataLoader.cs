@@ -4,6 +4,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public class StreamingAssetPath : IPath
+{
+    public string DataName { get; set; }
+
+    public StreamingAssetPath()
+    {
+    }
+
+    public StreamingAssetPath(string dataName)
+    {
+        DataName = dataName;
+    }
+
+    public string GetName<T>()
+    {
+        if (string.IsNullOrEmpty(DataName) == false)
+        {
+            return DataName;
+        }
+
+        return typeof(T).Name;
+    }
+
+    public string GetPath()
+    {
+        return Application.streamingAssetsPath;
+    }
+}
+
 public class EzDataLoader
 {
     private FileHandler fileHandler;
@@ -13,6 +42,28 @@ public class EzDataLoader
     {
         ezFileHandler.DataName = dataName;
         fileHandler = new FileHandler(ezFileHandler, ezFileHandler);
+    }
+
+    public EzDataLoader(string dataName, string subFolderPath)
+    {
+        ezFileHandler.DataName = dataName;
+        ezFileHandler.SubFolderPath = subFolderPath;
+        fileHandler = new FileHandler(ezFileHandler, ezFileHandler);
+    }
+
+    public EzDataLoader(IPath path, IDataParser parser)
+    {
+        fileHandler = new FileHandler(path, parser);
+    }
+
+    public EzDataLoader(IPath path)
+    {
+        fileHandler = new FileHandler(path, ezFileHandler);
+    }
+
+    public EzDataLoader(IDataParser parser)
+    {
+        fileHandler = new FileHandler(ezFileHandler, parser);
     }
 
     public T LoadData<T>() where T : new()
