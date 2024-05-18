@@ -21,12 +21,12 @@ namespace Ez.EzEditor
             SubFolderPath = subFolderPath;
         }
 
-        public string GetExtension()
+        public virtual string GetExtension()
         {
             return ".ez";
         }
 
-        public string GetName<T>()
+        public virtual string GetName<T>()
         {
             if (string.IsNullOrEmpty(DataName) == false)
             {
@@ -36,7 +36,7 @@ namespace Ez.EzEditor
             return typeof(T).Name;
         }
 
-        public string GetPath()
+        public virtual string GetPath()
         {
             var appDir = new DirectoryInfo(Application.dataPath);
             string gameDataDir = Path.Combine(appDir.Parent.FullName, DataFolder);
@@ -48,12 +48,12 @@ namespace Ez.EzEditor
             return gameDataDir;
         }
 
-        public T ParseFrom<T>(string data)
+        public virtual T ParseFrom<T>(string data)
         {
             return JsonUtility.FromJson<T>(data);
         }
 
-        public string ParseTo(object data)
+        public virtual string ParseTo(object data)
         {
             return JsonUtility.ToJson(data, true);
         }
