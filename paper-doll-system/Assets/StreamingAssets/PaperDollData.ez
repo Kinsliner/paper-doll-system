@@ -1,0 +1,22 @@
+{
+    "datas": [
+        {
+            "id": 0,
+            "name": "未命名",
+            "node": 0,
+            "assetID": 1000
+        },
+        {
+            "id": 0,
+            "name": "未命名",
+            "node": 0,
+            "assetID": 1000
+        },
+        {
+            "id": 0,
+            "name": "未命名",
+            "node": 0,
+            "assetID": 1002
+        }
+    ]
+}

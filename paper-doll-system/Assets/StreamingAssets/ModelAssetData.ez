@@ -1,0 +1,18 @@
+{
+    "datas": [
+        {
+            "provideType": 0,
+            "assetID": 1000,
+            "assetName": "新模型資料",
+            "bundletId": 0,
+            "assetPath": ""
+        },
+        {
+            "provideType": 0,
+            "assetID": 1002,
+            "assetName": "新模型資料",
+            "bundletId": 0,
+            "assetPath": ""
+        }
+    ]
+}
