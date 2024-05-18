@@ -17,7 +17,7 @@ namespace Ez.EzEditor
         private  GUILayout.ScrollViewScope sideScrollView;
         private  Vector2 sideScrollPos;
 
-        protected EzFileHandler ProjectDFileHandler { get; private set; } = new EzFileHandler();
+        protected EzFileHandler EzFileHandler { get; private set; } = new EzFileHandler();
         protected FileHandler FileHandler { get; private set; }
 
         public virtual string SideViewTitle { get; protected set; } = string.Empty;
@@ -25,9 +25,14 @@ namespace Ez.EzEditor
 
         protected virtual void OnEnable()
         {
-            ProjectDFileHandler.DataName = DatName;
-            FileHandler = new FileHandler(ProjectDFileHandler, ProjectDFileHandler);
+            FileHandler = GetFileHandler();
             ImportData();
+        }
+
+        protected virtual FileHandler GetFileHandler()
+        {
+            EzFileHandler.DataName = DatName;
+            return new FileHandler(EzFileHandler, EzFileHandler);
         }
 
         private void OnGUI()
