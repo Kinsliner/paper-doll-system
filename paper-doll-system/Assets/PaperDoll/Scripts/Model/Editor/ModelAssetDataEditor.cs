@@ -28,6 +28,11 @@ public class ModelAssetDataEditor : EzEditorWindow
         window.Show();
     }
 
+    protected override FileHandler GetFileHandler()
+    {
+        var streamingAssetPath = new StreamingAssetPath(DatName);
+        return new FileHandler(streamingAssetPath, EzFileHandler);
+    }
 
     protected override void OnEnable()
     {
@@ -142,5 +147,7 @@ public class ModelAssetDataEditor : EzEditorWindow
         var table = new ModelAssetDataTable();
         table.datas = editDatas.Select(p => p.modelAssetData).ToList();
         FileHandler.Save(table);
+
+        AssetDatabase.Refresh();
     }
 }

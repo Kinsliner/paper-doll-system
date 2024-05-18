@@ -1,3 +1,4 @@
+using Ez;
 using Ez.EzEditor;
 using System;
 using System.Collections;
@@ -36,6 +37,12 @@ public class PaperDollEditor : EzEditorWindow
         RefreshModelAssetsID();
     }
 
+    protected override FileHandler GetFileHandler()
+    {
+        var streamingAssetPath = new StreamingAssetPath(DatName);
+        return new FileHandler(streamingAssetPath, EzFileHandler);
+    }
+
     private void RefreshModelAssetsID()
     {
         ModelAssetManager.InitData();
@@ -61,6 +68,8 @@ public class PaperDollEditor : EzEditorWindow
         var table = new PaperDollDataTable();
         table.datas = editDatas.Select(p => p.data).ToList();
         FileHandler.Save(table);
+
+        AssetDatabase.Refresh();
     }
 
     protected override void DrawSideViewData()

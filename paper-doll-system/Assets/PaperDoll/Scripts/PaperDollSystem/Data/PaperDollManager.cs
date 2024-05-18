@@ -4,7 +4,8 @@ using UnityEngine;
 
 public static class PaperDollManager
 {
-    private static EzDataLoader ezDataLoader = new EzDataLoader("PaperDollData");
+    private static StreamingAssetPath streamingAssetPath = new StreamingAssetPath("PaperDollData");
+    private static EzDataLoader ezDataLoader = new EzDataLoader(streamingAssetPath);
     private static Dictionary<int, PaperDollData> paperDollDic = new Dictionary<int, PaperDollData>();
 
     public static void Init()

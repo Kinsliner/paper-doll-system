@@ -11,7 +11,8 @@ public static class ModelAssetManager
         public GameObject gameObject;
     }
 
-    private static EzDataLoader projectDataLoader = new EzDataLoader("ModelAssetData");
+    private static StreamingAssetPath streamingAssetPath = new StreamingAssetPath("ModelAssetData");
+    private static EzDataLoader projectDataLoader = new EzDataLoader(streamingAssetPath);
     private static Dictionary<int, ModelAssetData> modelAssetDic = new Dictionary<int, ModelAssetData>();
     private static List<PreloadAssetData> preloadAssetDatas = new List<PreloadAssetData>();
 
