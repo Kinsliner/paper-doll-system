@@ -21,7 +21,7 @@ public class ModelAssetDataEditor : EzEditorWindow
     private List<EditModelAssetData> editDatas = new List<EditModelAssetData>();
     private EditModelAssetData currentEdit = null;
 
-    [MenuItem("Tools/模型資料編輯器")]
+    [MenuItem("Tools/模型資料編輯器", priority = 2000)]
     public static void ShowWindow()
     {
         var window = GetWindow<ModelAssetDataEditor>("模型資料編輯器");

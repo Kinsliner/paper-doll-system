@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public static class ModelAssetManager
@@ -19,12 +21,13 @@ public static class ModelAssetManager
     public static void Init()
     {
         InitData();
+        PreloadAsset();
     }
 
     /// <summary>
     /// 初始化資料
     /// </summary>
-    private static void InitData()
+    public static void InitData()
     {
         modelAssetDic.Clear();
         var datas = projectDataLoader.LoadData<ModelAssetDataTable>().datas;
@@ -32,8 +35,6 @@ public static class ModelAssetManager
         {
             modelAssetDic.Add(p.assetID, p);
         });
-
-        PreloadAsset();
     }
 
     /// <summary>
@@ -103,5 +104,10 @@ public static class ModelAssetManager
         {
             LoadModelAsset(modelAssetData.assetID);
         }
+    }
+
+    public static List<ModelAssetData> GetModelAssetDatas()
+    {
+        return modelAssetDic.Values.ToList();
     }
 }
