@@ -20,6 +20,13 @@ namespace Ez
         string ParseTo(object data);
     }
 
+    public interface IReadWrite
+    {
+        bool IsVaildPath(string path);
+        void WriteFile(string path, string content);
+        string ReadFile(string path);
+    }
+
     public class BuildInSettingPath : IPath
     {
         public string GetName<T>()
@@ -57,10 +64,52 @@ namespace Ez
         }
     }
 
+    public class FileIOStrategy : IReadWrite
+    {
+        public void WriteFile(string path, string content)
+        {
+            string dir = Path.GetDirectoryName(path);
+            if (Directory.Exists(dir) == false)
+            {
+                Directory.CreateDirectory(dir);
+            }
+
+            using (FileStream fs = new FileStream(path, FileMode.Create))
+            {
+                using (StreamWriter writer = new StreamWriter(fs))
+                {
+                    writer.Write(content);
+                }
+            }
+        }
+
+        public string ReadFile(string path)
+        {
+            if (File.Exists(path))
+            {
+                using (StreamReader reader = new StreamReader(path))
+                {
+                    return reader.ReadToEnd();
+                }
+            }
+            else
+            {
+                Debug.LogError("File not found: " + path);
+                return null;
+            }
+        }
+
+        public bool IsVaildPath(string path)
+        {
+            return File.Exists(path);
+        }
+    }
+
     public class FileHandler
     {
         private IPath path = new BuildInSettingPath();
         private IDataParser parser = new UnityJsonParser();
+        private IReadWrite readWrite = new FileIOStrategy();
 
         public FileHandler()
         {
@@ -100,34 +149,20 @@ namespace Ez
 
         public void Save(string filePath, object file)
         {
-            string dir = Path.GetDirectoryName(filePath);
-            if (Directory.Exists(dir) == false)
-            {
-                Directory.CreateDirectory(dir);
-            }
-
-            using (FileStream fs = new FileStream(filePath, FileMode.Create))
-            {
-                using (StreamWriter writer = new StreamWriter(fs))
-                {
-                    string fileText = parser.ParseTo(file);
-                    writer.Write(fileText);
-                }
-            }
+            string content = parser.ParseTo(file);
+            readWrite.WriteFile(filePath, content);
         }
 
         public string LoadAsText<T>()
         {
             string filePath = GetFilePath<T>();
-            if (File.Exists(filePath))
+            if (readWrite.IsVaildPath(filePath))
             {
-                using (StreamReader reader = new StreamReader(filePath))
-                {
-                    return reader.ReadToEnd();
-                }
+                return readWrite.ReadFile(filePath);
             }
             else
             {
+                Debug.LogError("File not found: " + filePath);
                 return string.Empty;
             }
         }
@@ -136,20 +171,17 @@ namespace Ez
         {
             string filePath = GetFilePath<T>();
 
-            if (File.Exists(filePath))
+            if (readWrite.IsVaildPath(filePath))
             {
-                using (StreamReader reader = new StreamReader(filePath))
+                string content = readWrite.ReadFile(filePath);
+                if (string.IsNullOrEmpty(content))
                 {
-                    string file = reader.ReadToEnd();
-                    if (string.IsNullOrEmpty(file))
-                    {
-                        return new T();
-                    }
-                    else
-                    {
-                        T setting = parser.ParseFrom<T>(file);
-                        return setting;
-                    }
+                    return new T();
+                }
+                else
+                {
+                    T setting = parser.ParseFrom<T>(content);
+                    return setting;
                 }
             }
             else
@@ -161,6 +193,9 @@ namespace Ez
             }
         }
 
+        /// <summary>
+        /// 讀取資料夾下所有檔案，僅支援IO讀寫
+        /// </summary>
         public List<T> LoadAll<T>() where T : new()
         {
             List<T> list = new List<T>();
