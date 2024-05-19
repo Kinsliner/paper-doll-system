@@ -553,11 +553,11 @@ MonoBehaviour:
   uiCollector: {fileID: 8253598206806424345}
   slotViews:
   - node: 0
-    rootKey: ClosetSlot_Select
-    iconKey: ClosetSlot_closet slot
+    rootKey: ClosetSlot_HeadRoot
+    iconKey: ClosetSlot_HeadImage
   - node: 1
-    rootKey: 
-    iconKey: 
+    rootKey: ClosetSlot_BodyRoot
+    iconKey: ClosetSlot_BodyImage
 --- !u!114 &8253598206806424345
 MonoBehaviour:
   m_ObjectHideFlags: 0
