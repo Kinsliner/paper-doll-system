@@ -162,7 +162,7 @@ public class ClosetPanelUI : MonoBehaviour
         // 取得部位的所有項目
         currentCaches = paperDollController.GetPaperDollCaches(currentNode);
 
-        // 重置頁數，並跳到指定頁數
+        // 重置並跳到指定頁數
         ResetToPage(page);
 
         // 顯示項目在Slot上
@@ -200,19 +200,24 @@ public class ClosetPanelUI : MonoBehaviour
     /// </summary>
     private void DisplayBodyItems(int page)
     {
+        // 清除Slot
         foreach (ClosetSlot slot in closetSlots)
         {
             slot.Clear();
         }
 
+        // 計算要顯示的範圍
         int startIndex = (page - 1) * slotPerPage;
         int endIndex = Mathf.Min(startIndex + slotPerPage, currentCaches.Count);
+        
+        // 防呆
         int displayCount = endIndex - startIndex;
         if (displayCount == 0)
         {
             return;
         }
 
+        // 顯示項目
         for (int i = startIndex; i < endIndex; i++)
         {
             closetSlots[i - startIndex].Display(currentCaches[i]);
