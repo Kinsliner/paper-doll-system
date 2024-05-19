@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace Ez.Tool
 {
@@ -424,6 +425,14 @@ namespace Ez.Tool
                 {
                     return (uiAsset.asset as InputField).text;
                 }
+                if (uiAsset.asset is TMP_Text)
+                {
+                    return (uiAsset.asset as TMP_Text).text;
+                }
+                if (uiAsset.asset is TMP_InputField)
+                {
+                    return (uiAsset.asset as TMP_InputField).text;
+                }
             }
             
             return string.Empty;
@@ -441,6 +450,14 @@ namespace Ez.Tool
                 if (uiAsset.asset is InputField)
                 {
                     (uiAsset.asset as InputField).text = text;
+                }
+                if (uiAsset.asset is TMP_Text)
+                {
+                    (uiAsset.asset as TMP_Text).text = text;
+                }
+                if (uiAsset.asset is TMP_InputField)
+                {
+                    (uiAsset.asset as TMP_InputField).text = text;
                 }
             }
         }
@@ -561,6 +578,10 @@ namespace Ez.Tool
                 if (uiAsset.asset is Scrollbar)
                 {
                     (uiAsset.asset as Scrollbar).value = value;
+                }
+                if (uiAsset.asset is Image)
+                {
+                    (uiAsset.asset as Image).fillAmount = value;
                 }
             }
         }
