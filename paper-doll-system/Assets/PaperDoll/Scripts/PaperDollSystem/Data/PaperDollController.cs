@@ -10,6 +10,8 @@ public class PaperDollController
         public GameObject attachObject;
     }
 
+    public List<PaperDollCache> PaperDollCaches => paperDollCaches;
+
     private List<PaperDollCache> paperDollCaches = new List<PaperDollCache>();
 
     public void Init()
@@ -23,5 +25,10 @@ public class PaperDollController
             paperDollCache.attachObject = ModelAssetManager.LoadModelAsset(p.assetID);
             paperDollCaches.Add(paperDollCache);
         });
+    }
+
+    public List<PaperDollCache> GetPaperDollCaches(BodyNode node)
+    {
+        return paperDollCaches.FindAll(p => p.node == node);
     }
 }
