@@ -41,7 +41,7 @@ public class ResourcePathConstKeyGenerator : ConstKeysGenerator
         string path = AssetDatabase.GetAssetPath(Selection.activeObject);
 
         // 只有選擇的路徑在Resource底下和是prefab才會顯示
-        return path.Contains("Resources/") && path.EndsWith(".prefab");
+        return path.Contains("Resources/");
     }
 
     public override string GetName()
