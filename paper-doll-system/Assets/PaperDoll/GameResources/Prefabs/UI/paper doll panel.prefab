@@ -194,6 +194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 255774558167395176}
   - component: {fileID: 5804458448687481919}
+  - component: {fileID: 4676206420033570041}
   m_Layer: 5
   m_Name: closet panel
   m_TagString: Untagged
@@ -233,7 +234,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c82ff3e0116f44f4ab2ce4bdbcb744b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiCollector: {fileID: 0}
+  uiCollector: {fileID: 4676206420033570041}
+  bodyNodeButtonPrefab: {fileID: 0}
+  closetSlotPrefab: {fileID: 0}
+--- !u!114 &4676206420033570041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2889491951819891819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c64fd0a6df21d6459e87b40880c5c08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectorID: -1
+  guid: 79df7885d8435b747ba159c8a95b78ba
+  groupName: Closet
+  UIAsset:
+  - realKey: Closet_SlotRoot
+    groupName: Closet
+    keyName: SlotRoot
+    asset: {fileID: 5860794860335728921}
+  - realKey: Closet_BodyNodeButtonRoot
+    groupName: Closet
+    keyName: BodyNodeButtonRoot
+    asset: {fileID: 6927079612491867251}
+  - realKey: Closet_NextButton
+    groupName: Closet
+    keyName: NextButton
+    asset: {fileID: 9027490121486504544}
+  - realKey: Closet_PrevButton
+    groupName: Closet
+    keyName: PrevButton
+    asset: {fileID: 4405485189807416606}
+  - realKey: Closet_PageText
+    groupName: Closet
+    keyName: PageText
+    asset: {fileID: 7973613911922775950}
 --- !u!1 &6437800089641021033
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,6 +798,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8242538099453899944, guid: 391544d251b7a5341a7686e55182dcc5, type: 3}
   m_PrefabInstance: {fileID: 140734604795898446}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &9027490121486504544 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8988035931256387630, guid: 391544d251b7a5341a7686e55182dcc5, type: 3}
+  m_PrefabInstance: {fileID: 140734604795898446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1190876633043449838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1367,6 +1417,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8242538099453899944, guid: 391544d251b7a5341a7686e55182dcc5, type: 3}
   m_PrefabInstance: {fileID: 4726675690408959280}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4405485189807416606 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8988035931256387630, guid: 391544d251b7a5341a7686e55182dcc5, type: 3}
+  m_PrefabInstance: {fileID: 4726675690408959280}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4814595207054634278
 PrefabInstance:
   m_ObjectHideFlags: 0
