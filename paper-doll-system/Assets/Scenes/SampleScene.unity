@@ -771,6 +771,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: paper doll panel
       objectReference: {fileID: 0}
+    - target: {fileID: 2004971667532962921, guid: d3851c086cdb99844a5f3636f20ea3ee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184465782001692591, guid: d3851c086cdb99844a5f3636f20ea3ee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4285718167735671533, guid: d3851c086cdb99844a5f3636f20ea3ee, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -789,11 +797,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285718167735671533, guid: d3851c086cdb99844a5f3636f20ea3ee, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 413.485
       objectReference: {fileID: 0}
     - target: {fileID: 4285718167735671533, guid: d3851c086cdb99844a5f3636f20ea3ee, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -473.26
       objectReference: {fileID: 0}
     - target: {fileID: 4291729547372491541, guid: d3851c086cdb99844a5f3636f20ea3ee, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1107,6 +1115,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7591404406847259126, guid: d3851c086cdb99844a5f3636f20ea3ee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7954160934843754076, guid: d3851c086cdb99844a5f3636f20ea3ee, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1129,6 +1141,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7954160934843754076, guid: d3851c086cdb99844a5f3636f20ea3ee, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8644194930827617968, guid: d3851c086cdb99844a5f3636f20ea3ee, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9204904075786403148, guid: d3851c086cdb99844a5f3636f20ea3ee, type: 3}
