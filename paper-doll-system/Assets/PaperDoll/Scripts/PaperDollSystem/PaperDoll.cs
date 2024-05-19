@@ -27,6 +27,7 @@ public struct BodyPart
     /// <summary>
     /// 部位物件
     /// </summary>
+    [HideInInspector]
     public GameObject attachObject;
 }
 
@@ -50,8 +51,10 @@ public class PaperDoll : MonoBehaviour
             Destroy(bodyPart.attachObject);
         }
 
+        // 產生新的物件
+        var clone = Instantiate(part, bodyPart.root);
+
         // 附加新的物件
-        part.transform.SetAndFitParentPose(bodyPart.root);
-        bodyPart.attachObject = part;
+        bodyPart.attachObject = clone;
     }
 }
