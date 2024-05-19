@@ -37,6 +37,7 @@ public class ClosetPanelUI : MonoBehaviour
         BuildBodyNodeButtons();
         BuildClosetSlots();
         SetupPageButtons();
+        RefreshCloset();
     }
 
     private void BuildBodyNodeButtons()
@@ -207,7 +208,7 @@ public class ClosetPanelUI : MonoBehaviour
         }
 
         // 計算要顯示的範圍
-        int startIndex = (page - 1) * slotPerPage;
+        int startIndex = (page - 1).Min(0) * slotPerPage;
         int endIndex = Mathf.Min(startIndex + slotPerPage, currentCaches.Count);
         
         // 防呆
