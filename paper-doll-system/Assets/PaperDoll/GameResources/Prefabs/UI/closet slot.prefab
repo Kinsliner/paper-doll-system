@@ -235,7 +235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3140452699443196518}
   m_Layer: 5
-  m_Name: closet item
+  m_Name: closet slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
