@@ -23,6 +23,8 @@ MonoBehaviour:
   - Closet_PrevButton
   - Closet_PageText
   - BodyNodeButton_IconImage
+  - BodyNodeButton_Animator
+  - BodyNodeButton_SelectButton
   - ClosetSlot_Free
   - ClosetSlot_Lock
   - ClosetSlot_Select
@@ -30,6 +32,7 @@ MonoBehaviour:
   - ClosetSlot_HeadRoot
   - ClosetSlot_BodyImage
   - ClosetSlot_HeadImage
+  - ClosetSlot_Button
   IncreaseCollectorID: 0
   collectorKeys:
   - id: -1
@@ -44,6 +47,8 @@ MonoBehaviour:
     guid: b35e11844bade9a41bbc580f07668745
     keys:
     - BodyNodeButton_IconImage
+    - BodyNodeButton_Animator
+    - BodyNodeButton_SelectButton
   - id: -1
     guid: 7e0adcdcf45855645b24f36f43ac4c1d
     keys:
@@ -54,3 +59,4 @@ MonoBehaviour:
     - ClosetSlot_HeadRoot
     - ClosetSlot_BodyImage
     - ClosetSlot_HeadImage
+    - ClosetSlot_Button
