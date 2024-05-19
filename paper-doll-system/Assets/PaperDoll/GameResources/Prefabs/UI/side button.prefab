@@ -355,6 +355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3101184314838172923}
   - component: {fileID: 3118080316913663623}
+  - component: {fileID: 2814400662140138756}
   m_Layer: 5
   m_Name: side button
   m_TagString: Untagged
@@ -399,6 +400,27 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: 2225a0118a24d5f4799f2faec157e833, type: 3}
   - node: 1
     image: {fileID: 21300000, guid: f7c03c51849fbaa4f9aa99e0b0f6d1b7, type: 3}
+  uiCollector: {fileID: 2814400662140138756}
+--- !u!114 &2814400662140138756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7173839186219578988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c64fd0a6df21d6459e87b40880c5c08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectorID: -1
+  guid: b35e11844bade9a41bbc580f07668745
+  groupName: BodyNodeButton
+  UIAsset:
+  - realKey: BodyNodeButton_IconImage
+    groupName: BodyNodeButton
+    keyName: IconImage
+    asset: {fileID: 5421626148593939909}
 --- !u!1 &7577773055664106264
 GameObject:
   m_ObjectHideFlags: 0
