@@ -65,9 +65,21 @@ public class ClosetPanelUI : MonoBehaviour
         }
     }
 
-    private void OnBodyNodeButtonClicked(BodyNode node)
+    private void OnBodyNodeButtonClicked(BodyNodeButton sender, BodyNode node)
     {
         RefreshCloset(node);
+
+        // 通知按鈕選取
+        sender.SetSelected(true);
+
+        // 通知其他按鈕取消選取
+        foreach (BodyNodeButton otherButton in bodyNodeButtons)
+        {
+            if (otherButton != sender)
+            {
+                otherButton.SetSelected(false);
+            }
+        }
     }
 
     private void BuildClosetSlots()
@@ -77,6 +89,7 @@ public class ClosetPanelUI : MonoBehaviour
         // 清除舊的 Slot
         foreach (ClosetSlot slot in closetSlots)
         {
+            slot.OnClickEvent -= OnClosetSlotClicked;
             Destroy(slot.gameObject);
         }
         closetSlots.Clear();
@@ -87,9 +100,29 @@ public class ClosetPanelUI : MonoBehaviour
             var slot = Instantiate(closetSlotPrefab, root);
             var closetSlot = slot.GetComponent<ClosetSlot>();
             closetSlot.Init();
+            closetSlot.OnClickEvent += OnClosetSlotClicked;
             closetSlots.Add(closetSlot);
         }
     }
+
+    private void OnClosetSlotClicked(ClosetSlot slot, PaperDollController.PaperDollCache cache)
+    {
+        // 附加物件
+        paperDollController.Attach(cache);
+
+        // 通知Slot選取
+        slot.Select();
+
+        // 通知其他Slot取消選取
+        foreach (ClosetSlot otherSlot in closetSlots)
+        {
+            if (otherSlot != slot)
+            {
+                otherSlot.Unselect();
+            }
+        }
+    }
+
 
     private void SetupPageButtons()
     {

@@ -143,6 +143,8 @@ public class PaperDollEditor : EzEditorWindow
         currentEdit.data.node = (BodyNode)EditorGUILayout.EnumPopup("節點", currentEdit.data.node);
 
         DrawModelAssetID(currentEdit);
+
+        DrawIconPath(currentEdit);
     }
 
     private void DrawModelAssetID(EditPaperDollData currentEdit)
@@ -165,5 +167,10 @@ public class PaperDollEditor : EzEditorWindow
         {
             EditorGUILayout.HelpBox("素材ID不存在", MessageType.Error);
         }
+    }
+
+    private void DrawIconPath(EditPaperDollData currentEdit)
+    {
+        currentEdit.data.iconPath = EditorGUILayout.TextField("圖示路徑", currentEdit.data.iconPath);
     }
 }

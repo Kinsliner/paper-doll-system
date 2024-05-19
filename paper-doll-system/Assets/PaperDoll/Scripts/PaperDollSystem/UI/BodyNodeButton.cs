@@ -12,7 +12,7 @@ public class BodyNodeButton : MonoBehaviour
         public Sprite image;
     }
 
-    public Action<BodyNode> OnClickEvent;
+    public Action<BodyNodeButton, BodyNode> OnClickEvent;
 
     [SerializeField]
     private List<BodyNodeIcon> iconList = new List<BodyNodeIcon>();
@@ -20,11 +20,16 @@ public class BodyNodeButton : MonoBehaviour
     [SerializeField]
     private UICollector uiCollector;
 
+    private Animator anim;
     private BodyNode bodyNode;
 
     public void Init(BodyNode bodyNode)
     {
         this.bodyNode = bodyNode;
+
+        anim = uiCollector.GetAsset<Animator>(UIKey.BodyNodeButton_Animator);
+
+        uiCollector.BindOnClick(UIKey.BodyNodeButton_SelectButton, OnClick);
 
         SetIcon(bodyNode);
     }
@@ -44,6 +49,11 @@ public class BodyNodeButton : MonoBehaviour
 
     public void OnClick()
     {
-        OnClickEvent?.Invoke(bodyNode);
+        OnClickEvent?.Invoke(this, bodyNode);
+    }
+
+    public void SetSelected(bool selected)
+    {
+        anim.SetBool("IsSelect", selected);
     }
 }

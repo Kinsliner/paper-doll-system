@@ -7,6 +7,7 @@ public class PaperDollData
     public string name;
     public BodyNode node;
     public int assetID;
+    public string iconPath;
 }
 
 [System.Serializable]
