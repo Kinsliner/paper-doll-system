@@ -4,13 +4,29 @@
             "id": 10001,
             "name": "頭1",
             "node": 0,
-            "assetID": 1001
+            "assetID": 1001,
+            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_01"
         },
         {
             "id": 20001,
             "name": "身體1",
             "node": 1,
-            "assetID": 2001
+            "assetID": 2001,
+            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_01"
+        },
+        {
+            "id": 10002,
+            "name": "頭2",
+            "node": 0,
+            "assetID": 1001,
+            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_01"
+        },
+        {
+            "id": 20002,
+            "name": "身體2",
+            "node": 1,
+            "assetID": 2001,
+            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_01"
         }
     ]
 }
