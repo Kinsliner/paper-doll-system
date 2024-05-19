@@ -1,0 +1,1601 @@
+fileFormatVersion: 2
+guid: b28e03846463dfe41b548076cc1161a7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: def_girl_head_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f24c3d5cd9ccfa4cb9eca8c3469a675
+      internalID: -1326742013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4c2e75a7318de44851aa8c3531640f
+      internalID: -426967338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de5ecf2f906a4940a4c4508d9701502
+      internalID: -819573356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_3
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f854e1cc15409241b14c5b52d60baed
+      internalID: -41703823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_4
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292ba1f22721ced4ca27ec28ae7511d9
+      internalID: -939008658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_5
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f3fd21f138a4d429111263f9fbd48e
+      internalID: -1000359077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_6
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c01114bef39114d9b248d70395a2af
+      internalID: -1924791294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_7
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4a3584085289d4488e072eee8138ac
+      internalID: 2122056875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_8
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a4024d68dd8124ab6941ad233f1af6
+      internalID: 1921260156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eea211a1a7a1c043be10a3c66fdc322
+      internalID: 1221380575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_10
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec6c2ea0381fc042bd3340ae13120c2
+      internalID: 1145108910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7b33bbe9a594b449fe37bdecd3d1cc
+      internalID: -1912601471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_12
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac57f212096df443b5f266ad92856db
+      internalID: -1095437659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_13
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ac9855da0df3746b24e422bdac6099
+      internalID: 88799059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_14
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ca76b70d5994d4e83e09ab2f13b8bb
+      internalID: 1007542707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_15
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4544b77ac62762c4a9577dcb88d8eec1
+      internalID: -1873956638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_16
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893ba1910463b48429aefefe7ba35ea7
+      internalID: -1450426571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa28b23ffd411534884255b6186fc4f5
+      internalID: -937087716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_18
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1000
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d762fffa89937a54ea966770a120a5a9
+      internalID: 1836354205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_19
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1000
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42718d183fbdb8f429a7f398e0111f2d
+      internalID: 1819351387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_20
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1000
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f650247b909b82448fdece2b573e587
+      internalID: 1576044574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_21
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1000
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b0ad2b1fe408145becc8c8cd266717
+      internalID: 1172321218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_22
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1000
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa98f8ac3219424e931bb803ff57321
+      internalID: 34675299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_23
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1000
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f828ad6545c7d41993ee24ed8edd18
+      internalID: -1494436494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_24
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1000
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8121fff9725eb438d318d968ab417f
+      internalID: -440523892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39aad843631af4f46afbeb166983afd7
+      internalID: 712938745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_26
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 800
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aed66ad032dde74ca018810da00e7f7
+      internalID: -1858143287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_27
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 800
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6604882612a6eb94e92528f4e010cd66
+      internalID: 1517955767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_28
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 800
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae2e150d6090654a8ddaa522fd68937
+      internalID: -692761379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_29
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 800
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d0248856c7a444ea2b2f00e8c9ec48
+      internalID: 882496558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_30
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 800
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ba17c33111b1b43a996639a77c479e
+      internalID: -1417288901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_31
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 800
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0748b5d5ae282a44a9f7434d37c219f6
+      internalID: 922269979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_32
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 800
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc1eedf8bd156045a488e35b2d40503
+      internalID: -574246345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_33
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 800
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c101a92880e6644d9ff2a2bc7e2a3b5
+      internalID: -756878540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7781d383c9c205443bd16afd5596b7ae
+      internalID: -1357699475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 600
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f9d333345c3af4295a7754e23aff1f
+      internalID: 1669027816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_36
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 600
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1a04a799ebce64cbf521e05c833783
+      internalID: 685289793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_37
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 600
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ab146436105b544a3dc3c623fe2cd5
+      internalID: -1366599734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_38
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 600
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b34fd8efcb3efa4e80499f4ae930a3c
+      internalID: 748993622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_39
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 600
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c9cb3a964dc6f46af945805589b683
+      internalID: 1692134434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_40
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 600
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a00cf0bed69ad4e93bb7b7bda98dcb
+      internalID: -1143026210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_41
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 600
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24aa4a8204b7bea42ab31dd4b6207a8c
+      internalID: -75371941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f272685e7c2510d4696541caf114d838
+      internalID: -579370683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4899919d1378cb84ab6da47e8e8c2a86
+      internalID: -2031271977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_44
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4d6ffee513fcd4f946ce17773c1b17
+      internalID: 1374434108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_45
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e568dd7dd43774b9d461f793ca8461
+      internalID: 1684750883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_46
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0769e28147088db409698b71fa6b2ca9
+      internalID: -137013829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_47
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1aa8ee02170194b8f96009ad1d6d88
+      internalID: -807686442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_48
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002abfea4a672224a981b44184c28016
+      internalID: -163105474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_49
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 400
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e330bf61a36e58b488eb459e1cb3bb06
+      internalID: -481037227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f22e54760ffc344b4dc1c55810d4bf
+      internalID: -1409472167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_51
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bd8e2e0a96c334a9d8b60605ceebfa
+      internalID: -1441018967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_52
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d0ed839414dc543907c023f8120682
+      internalID: -1921557492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_53
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fd73c4aab67064baba93681eea3167
+      internalID: -1665548941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_54
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5205a6ae6bbd0874aaf7369fda72a9c3
+      internalID: 350450912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_55
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a2d985872c74f43b32d4592f01bb5b
+      internalID: 2016963484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_56
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484db5d29a5e401488def8fdac0c5d7a
+      internalID: 1266786295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_57
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12b614b4cf175b4cb666b73d3c645fd
+      internalID: 840178006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_58
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 200
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263885f0418aaf14abe767f7dc4956d2
+      internalID: -1564912783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_59
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbf70c71cb85034baffa544919d220d
+      internalID: 1362260614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_60
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a7bf986c3df0d4bb80ea5e7773473d
+      internalID: -159056976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_61
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27aee79dc2d7194a8ab95f22ea0fe89
+      internalID: -1956265097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_62
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089b5be48263e2a48b2af47519b71861
+      internalID: 48916193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_63
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 0
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d9cc3562f24be42a517004389f1ad6
+      internalID: 117189813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_64
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef07a36d779ad444f9a40f83c0db849f
+      internalID: 665920854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_65
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8074850c87cba6044b3197f68902e57b
+      internalID: -934113396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_head_66
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92de6c0de5ff8c44ab27f8bb75ae65e
+      internalID: -256779557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      def_girl_head_0: -1326742013
+      def_girl_head_1: -426967338
+      def_girl_head_10: 1145108910
+      def_girl_head_11: -1912601471
+      def_girl_head_12: -1095437659
+      def_girl_head_13: 88799059
+      def_girl_head_14: 1007542707
+      def_girl_head_15: -1873956638
+      def_girl_head_16: -1450426571
+      def_girl_head_17: -937087716
+      def_girl_head_18: 1836354205
+      def_girl_head_19: 1819351387
+      def_girl_head_2: -819573356
+      def_girl_head_20: 1576044574
+      def_girl_head_21: 1172321218
+      def_girl_head_22: 34675299
+      def_girl_head_23: -1494436494
+      def_girl_head_24: -440523892
+      def_girl_head_25: 712938745
+      def_girl_head_26: -1858143287
+      def_girl_head_27: 1517955767
+      def_girl_head_28: -692761379
+      def_girl_head_29: 882496558
+      def_girl_head_3: -41703823
+      def_girl_head_30: -1417288901
+      def_girl_head_31: 922269979
+      def_girl_head_32: -574246345
+      def_girl_head_33: -756878540
+      def_girl_head_34: -1357699475
+      def_girl_head_35: 1669027816
+      def_girl_head_36: 685289793
+      def_girl_head_37: -1366599734
+      def_girl_head_38: 748993622
+      def_girl_head_39: 1692134434
+      def_girl_head_4: -939008658
+      def_girl_head_40: -1143026210
+      def_girl_head_41: -75371941
+      def_girl_head_42: -579370683
+      def_girl_head_43: -2031271977
+      def_girl_head_44: 1374434108
+      def_girl_head_45: 1684750883
+      def_girl_head_46: -137013829
+      def_girl_head_47: -807686442
+      def_girl_head_48: -163105474
+      def_girl_head_49: -481037227
+      def_girl_head_5: -1000359077
+      def_girl_head_50: -1409472167
+      def_girl_head_51: -1441018967
+      def_girl_head_52: -1921557492
+      def_girl_head_53: -1665548941
+      def_girl_head_54: 350450912
+      def_girl_head_55: 2016963484
+      def_girl_head_56: 1266786295
+      def_girl_head_57: 840178006
+      def_girl_head_58: -1564912783
+      def_girl_head_59: 1362260614
+      def_girl_head_6: -1924791294
+      def_girl_head_60: -159056976
+      def_girl_head_61: -1956265097
+      def_girl_head_62: 48916193
+      def_girl_head_63: 117189813
+      def_girl_head_64: 665920854
+      def_girl_head_65: -934113396
+      def_girl_head_66: -256779557
+      def_girl_head_7: 2122056875
+      def_girl_head_8: 1921260156
+      def_girl_head_9: 1221380575
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

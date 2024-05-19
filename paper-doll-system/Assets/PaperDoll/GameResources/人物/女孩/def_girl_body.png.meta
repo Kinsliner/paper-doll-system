@@ -1,0 +1,1601 @@
+fileFormatVersion: 2
+guid: 8cce568eb52b6194aa0ca73ec498268b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: def_girl_body_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cbfd6b9946cdd4cbca944161b61e69
+      internalID: -1480190912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9e339044150784d9402ff359a32fb9
+      internalID: 1293304288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a136675d0b0d94548b65ece40bbe415c
+      internalID: -1913459606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_3
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a03ef3795810e4987ef01f3dcf55e1
+      internalID: -330893343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_4
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ffa48c5b99a3141aec73a44c8e83e4
+      internalID: -1843992149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_5
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1a97d77eefd5a47be2452570171a4d
+      internalID: -212080305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_6
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02885f55be5fa7479e6b4e88c5abfd1
+      internalID: -1230590236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_7
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9e94706f4f72347978d1371a4a376d
+      internalID: -251096328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_8
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fe1262327bf1440b1b28e7db6f1ca0
+      internalID: -1876282008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_9
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6122d80d79f56fd4a998096359c5bc25
+      internalID: 23027766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_10
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4461bdde43356e1488cf04550da95bcb
+      internalID: 1774014456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_11
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34425fb7d5a9934aa60cc92b9869399
+      internalID: -2135808086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ca79733551cc7469c54de2acce4809
+      internalID: -1611233480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff47a57b2370e684cbb0027b8fd4575a
+      internalID: 307554245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374742815697e9a47af928fdc68b412c
+      internalID: -1669148507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_15
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c618ccfc60a92d479df0a946c887bf8
+      internalID: -1723065046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_16
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54155d0272e9354cb66563f75ed483e
+      internalID: 1551020411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_17
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6070b27bc9722e48a5a24d6467d91f0
+      internalID: -503411997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_18
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e921a7f3d2613044683a9de057209dac
+      internalID: 1828618720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_19
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6d0540f3732ff45bee1473d0814b70
+      internalID: 1182676335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_20
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4821b5527e20c84680b1ebdd01c5ef4
+      internalID: 1024436594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_21
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3c0c10c0bfe954fa971b74cb7cfc77
+      internalID: -1916171473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0cd2aae766f9b47bef343b7186e97b
+      internalID: -534407287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0e572d3d7e2cd4cb7c33740b4ba512
+      internalID: 835148456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_24
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4aefc9bf56b4f47aa0cf3b0c58fb64
+      internalID: 1636207959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_25
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26820c3fa1982a345beb2ae47efd4aff
+      internalID: -694535498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_26
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafa0ddb3e6c60d4c824f901280c41b8
+      internalID: 1717366290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_27
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26179586da088a943a09ed85975d3d5b
+      internalID: 1093653713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_28
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d6636750477d343a0e3f1048bda935
+      internalID: 856522374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_29
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeebce51af742dc4c9fa311ba381380a
+      internalID: -1853020454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_30
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c65e8e565218647a4875d134deac40
+      internalID: 1436912757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_31
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d54daa820438f643b89eff8db7612b8
+      internalID: 995389479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_32
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163f8d7b642822647a53c5036914be50
+      internalID: 1079565822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_33
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a863b70b9eb4340abcf732896a038a
+      internalID: 214136995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075a74f4b2337874eb3441dba936b560
+      internalID: -929464969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439511a30a06e3346b9fd9525d6ba421
+      internalID: -532117169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_36
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488f7387af826d74992b551495dda8c5
+      internalID: -1672181894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_37
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983947c7de5b80b4ea2e1db9f0d801e8
+      internalID: 1895183377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_38
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12c1f20944e7f64ab502d788f6adfdb
+      internalID: 305418269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_39
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31dd8f7db9cbcf48a792adbb554d859
+      internalID: -190147695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_40
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabe57f953220b44ea2cf574b87b42bd
+      internalID: 1854471355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_41
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3558079d205d81a48947efe24db559b7
+      internalID: 1627708481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_42
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b681dd7262a3e49bb3e75b8c6e634f
+      internalID: 2054477407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_43
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572ffb08106f21b44a546da3e538afab
+      internalID: -508765862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd822e3a2286ca34fbd41ed2b183bc5d
+      internalID: 1608525038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_45
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885f2db4fd814ff4d951aee69ccd8cf9
+      internalID: -1715346409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_46
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f058021f55ffde4684e931b27226a1f
+      internalID: 1082401110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_47
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1171df769e2305448302a9d93e25ae0
+      internalID: -521975228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_48
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423510bf909495543bac8ea82b02bec8
+      internalID: 519786032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_49
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfd98d8f8f548c4da8b2dd250faedd4
+      internalID: -1093859349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_50
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa9d9660b940224eb141e84da314843
+      internalID: 734492319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_51
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e478082755bc0f44e8de6e2f9e4cdabf
+      internalID: 1345073884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_52
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febaacb2a476c424a8e74a197fcbbf64
+      internalID: -895159772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_53
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9f09ce4b7f66843af45a72890e812d
+      internalID: -832399682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_54
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f15a05f2afea54cbc4eea4dfe0f7bd
+      internalID: 1257773867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_55
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ced123765948c4fb8a95945c51b677
+      internalID: 910785729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e791922ce82e145a6005a67b694cc3
+      internalID: 1875071767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_57
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812fdb0057ab8884da59a3178939dbca
+      internalID: -1437271188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_58
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3225e0b814ffb47b09b1859fadc3b6
+      internalID: 485738910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_59
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3be59fb23197c045b4f4cd5b2daa6a5
+      internalID: 1888229113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_60
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f833a73598cef4399e902c720540fc
+      internalID: -1048395087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_61
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018a56bc4812d974682d92dbf9cd560f
+      internalID: 610515269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_62
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb98b7211ec738438c891abdda8e782
+      internalID: 567239598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_63
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c25ac0b77a08443abf769593dc11e8
+      internalID: -1843875311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_64
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcd933126a3055419b114c3342e2e31
+      internalID: -366121074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_65
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07be9083f21c9d44acc2504ab928312
+      internalID: 322571396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: def_girl_body_66
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75d110e834f7ae46a1a7918fe22d6e7
+      internalID: -994629706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      def_girl_body_0: -1480190912
+      def_girl_body_1: 1293304288
+      def_girl_body_10: 1774014456
+      def_girl_body_11: -2135808086
+      def_girl_body_12: -1611233480
+      def_girl_body_13: 307554245
+      def_girl_body_14: -1669148507
+      def_girl_body_15: -1723065046
+      def_girl_body_16: 1551020411
+      def_girl_body_17: -503411997
+      def_girl_body_18: 1828618720
+      def_girl_body_19: 1182676335
+      def_girl_body_2: -1913459606
+      def_girl_body_20: 1024436594
+      def_girl_body_21: -1916171473
+      def_girl_body_22: -534407287
+      def_girl_body_23: 835148456
+      def_girl_body_24: 1636207959
+      def_girl_body_25: -694535498
+      def_girl_body_26: 1717366290
+      def_girl_body_27: 1093653713
+      def_girl_body_28: 856522374
+      def_girl_body_29: -1853020454
+      def_girl_body_3: -330893343
+      def_girl_body_30: 1436912757
+      def_girl_body_31: 995389479
+      def_girl_body_32: 1079565822
+      def_girl_body_33: 214136995
+      def_girl_body_34: -929464969
+      def_girl_body_35: -532117169
+      def_girl_body_36: -1672181894
+      def_girl_body_37: 1895183377
+      def_girl_body_38: 305418269
+      def_girl_body_39: -190147695
+      def_girl_body_4: -1843992149
+      def_girl_body_40: 1854471355
+      def_girl_body_41: 1627708481
+      def_girl_body_42: 2054477407
+      def_girl_body_43: -508765862
+      def_girl_body_44: 1608525038
+      def_girl_body_45: -1715346409
+      def_girl_body_46: 1082401110
+      def_girl_body_47: -521975228
+      def_girl_body_48: 519786032
+      def_girl_body_49: -1093859349
+      def_girl_body_5: -212080305
+      def_girl_body_50: 734492319
+      def_girl_body_51: 1345073884
+      def_girl_body_52: -895159772
+      def_girl_body_53: -832399682
+      def_girl_body_54: 1257773867
+      def_girl_body_55: 910785729
+      def_girl_body_56: 1875071767
+      def_girl_body_57: -1437271188
+      def_girl_body_58: 485738910
+      def_girl_body_59: 1888229113
+      def_girl_body_6: -1230590236
+      def_girl_body_60: -1048395087
+      def_girl_body_61: 610515269
+      def_girl_body_62: 567239598
+      def_girl_body_63: -1843875311
+      def_girl_body_64: -366121074
+      def_girl_body_65: 322571396
+      def_girl_body_66: -994629706
+      def_girl_body_7: -251096328
+      def_girl_body_8: -1876282008
+      def_girl_body_9: 23027766
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
