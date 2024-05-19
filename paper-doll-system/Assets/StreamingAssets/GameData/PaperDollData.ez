@@ -1,22 +1,16 @@
 {
     "datas": [
         {
-            "id": 0,
-            "name": "未命名",
+            "id": 10001,
+            "name": "頭1",
             "node": 0,
-            "assetID": 1000
+            "assetID": 1001
         },
         {
-            "id": 0,
-            "name": "未命名",
-            "node": 0,
-            "assetID": 1000
-        },
-        {
-            "id": 0,
-            "name": "未命名",
-            "node": 0,
-            "assetID": 1002
+            "id": 20001,
+            "name": "身體1",
+            "node": 1,
+            "assetID": 2001
         }
     ]
 }

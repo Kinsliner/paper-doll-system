@@ -1,18 +1,18 @@
 {
     "datas": [
         {
-            "provideType": 0,
-            "assetID": 1000,
-            "assetName": "新模型資料",
+            "provideType": 1,
+            "assetID": 1001,
+            "assetName": "頭1",
             "bundletId": 0,
-            "assetPath": ""
+            "assetPath": "PaperDoll/Body/UI_Girl_Body_01"
         },
         {
-            "provideType": 0,
-            "assetID": 1002,
-            "assetName": "新模型資料",
+            "provideType": 1,
+            "assetID": 2001,
+            "assetName": "身體1",
             "bundletId": 0,
-            "assetPath": ""
+            "assetPath": "PaperDoll/Body/UI_Girl_Body_01"
         }
     ]
 }
