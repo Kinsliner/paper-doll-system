@@ -235,8 +235,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiCollector: {fileID: 4676206420033570041}
-  bodyNodeButtonPrefab: {fileID: 0}
-  closetSlotPrefab: {fileID: 0}
+  bodyNodeButtonPrefab: {fileID: 7173839186219578988, guid: b4388a87fdfb44345977daab1a97613b, type: 3}
+  closetSlotPrefab: {fileID: 8770438077318408573, guid: 5141d6f2ef4911f4291d1c934c5032b1, type: 3}
   slotPerPage: 12
 --- !u!114 &4676206420033570041
 MonoBehaviour:
