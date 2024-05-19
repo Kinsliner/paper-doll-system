@@ -14,13 +14,20 @@ public class ResourcePathConstKeyGenerator : ConstKeysGenerator
         // get asset path
         string path = AssetDatabase.GetAssetPath(Selection.activeObject);
 
-        // 去掉開頭的 Assets/Resources/
-        string processPath = RemoveStart(path, "Assets/Resources/");
+        // 找到 "Resources" 及其之後的路徑
+        int resourcesIndex = path.IndexOf("Resources/");
+        if (resourcesIndex == -1)
+        {
+            Debug.LogWarning("選中的資源不在 Resources 資料夾內！");
+            return;
+        }
 
-        // 去掉副檔名
-        processPath = RemoveEnd(processPath, ".prefab");
+        string processPath = path.Substring(resourcesIndex + "Resources/".Length);
 
-        // 複製路徑
+        // 移除文件副檔名
+        processPath = System.IO.Path.ChangeExtension(processPath, null);
+
+        // 複製路徑到剪貼簿
         GUIUtility.systemCopyBuffer = processPath;
 
         // Log
@@ -34,7 +41,7 @@ public class ResourcePathConstKeyGenerator : ConstKeysGenerator
         string path = AssetDatabase.GetAssetPath(Selection.activeObject);
 
         // 只有選擇的路徑在Resource底下和是prefab才會顯示
-        return path.StartsWith("Assets/Resources/") && path.EndsWith(".prefab");
+        return path.Contains("Resources/") && path.EndsWith(".prefab");
     }
 
     public override string GetName()
