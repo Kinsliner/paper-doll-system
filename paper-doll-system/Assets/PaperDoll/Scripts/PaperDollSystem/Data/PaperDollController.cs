@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PaperDollController
 {
+    public Action<PaperDoll> OnPaperDollSetEvent;
+
     public class PaperDollCache
     {
         public int id;
@@ -40,6 +42,8 @@ public class PaperDollController
     public void SetupPaperDoll(PaperDoll paperDoll)
     {
         currentPaperDoll = paperDoll;
+
+        OnPaperDollSetEvent?.Invoke(currentPaperDoll);
     }
 
     /// <summary>
@@ -58,7 +62,7 @@ public class PaperDollController
     {
         if (paperDollCache != null && currentPaperDoll != null)
         {
-            currentPaperDoll.Attach(paperDollCache.attachObject, paperDollCache.node);
+            currentPaperDoll.Attach(paperDollCache);
         }
     }
 }

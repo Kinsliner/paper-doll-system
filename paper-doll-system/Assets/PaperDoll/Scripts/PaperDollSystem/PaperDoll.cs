@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,7 +13,7 @@ public enum BodyNode
 }
 
 [System.Serializable]
-public struct BodyPart
+public class BodyPart
 {
     /// <summary>
     /// 部位節點
@@ -29,6 +30,11 @@ public struct BodyPart
     /// </summary>
     [HideInInspector]
     public GameObject attachObject;
+
+    /// <summary>
+    /// 緩存資料
+    /// </summary>
+    public PaperDollController.PaperDollCache CacheData;
 }
 
 public class PaperDoll : MonoBehaviour
@@ -40,10 +46,22 @@ public class PaperDoll : MonoBehaviour
     {
     }
 
-    public void Attach(GameObject part, BodyNode node)
+    public void Attach(PaperDollController.PaperDollCache paperDollCache)
     {
+        // 取得緩存資料
+        var part = paperDollCache.attachObject;
+        var node = paperDollCache.node;
+
         // 找到對應的部位
         var bodyPart = parts.Find(x => x.node == node);
+        if (bodyPart == null)
+        {
+            Debug.LogError("找不到對應的部位");
+            return;
+        }
+
+        // 更新緩存資料
+        bodyPart.CacheData = paperDollCache;
 
         // 移除舊的物件
         if (bodyPart.attachObject != null)
@@ -56,5 +74,19 @@ public class PaperDoll : MonoBehaviour
 
         // 附加新的物件
         bodyPart.attachObject = clone;
+    }
+
+    /// <summary>
+    /// 取得該部位的緩存資料
+    /// </summary>
+    public PaperDollController.PaperDollCache GetCache(BodyNode node)
+    {
+        var bodyPart = parts.Find(x => x.node == node);
+        if (bodyPart == null)
+        {
+            return null;
+        }
+
+        return bodyPart.CacheData;
     }
 }
