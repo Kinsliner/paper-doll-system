@@ -5,14 +5,98 @@
             "assetID": 1001,
             "assetName": "頭1",
             "bundletId": 0,
-            "assetPath": "PaperDoll/Body/UI_Girl_Body_01"
+            "assetPath": "PaperDoll/Head/UI_Head_01_Girl"
+        },
+        {
+            "provideType": 1,
+            "assetID": 1002,
+            "assetName": "頭2",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Head/UI_Head_02_Cold"
+        },
+        {
+            "provideType": 1,
+            "assetID": 1003,
+            "assetName": "頭3",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Head/UI_Head_03_Space"
+        },
+        {
+            "provideType": 1,
+            "assetID": 1004,
+            "assetName": "頭4",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Head/UI_Head_04_Princess"
+        },
+        {
+            "provideType": 1,
+            "assetID": 1005,
+            "assetName": "頭5",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Head/UI_Head_05_Wizard"
+        },
+        {
+            "provideType": 1,
+            "assetID": 1006,
+            "assetName": "頭6",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Head/UI_Head_06_Robot"
+        },
+        {
+            "provideType": 1,
+            "assetID": 1007,
+            "assetName": "頭7",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Head/UI_Head_07_Boy"
         },
         {
             "provideType": 1,
             "assetID": 2001,
             "assetName": "身體1",
             "bundletId": 0,
-            "assetPath": "PaperDoll/Body/UI_Girl_Body_01"
+            "assetPath": "PaperDoll/Body/UI_Body_01_Girl"
+        },
+        {
+            "provideType": 1,
+            "assetID": 2002,
+            "assetName": "身體2",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Body/UI_Body_02_Cold"
+        },
+        {
+            "provideType": 1,
+            "assetID": 2003,
+            "assetName": "身體3",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Body/UI_Body_03_Space"
+        },
+        {
+            "provideType": 1,
+            "assetID": 2004,
+            "assetName": "身體4",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Body/UI_Body_04_Princess"
+        },
+        {
+            "provideType": 1,
+            "assetID": 2005,
+            "assetName": "身體5",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Body/UI_Body_05_Wizard"
+        },
+        {
+            "provideType": 1,
+            "assetID": 2006,
+            "assetName": "身體6",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Body/UI_Body_06_Robot"
+        },
+        {
+            "provideType": 1,
+            "assetID": 2007,
+            "assetName": "身體7",
+            "bundletId": 0,
+            "assetPath": "PaperDoll/Body/UI_Body_07_Boy"
         }
     ]
 }
