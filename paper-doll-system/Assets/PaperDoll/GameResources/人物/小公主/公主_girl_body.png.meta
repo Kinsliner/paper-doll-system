@@ -1,0 +1,1601 @@
+fileFormatVersion: 2
+guid: a2773d2d6ce0d9842b87c03d7c518a64
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88527bb24de69c342a1522f7330cf37f
+      internalID: -1466668827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_1"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc547273a4631e448a81f3580358263f
+      internalID: 1909426533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_2"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8887809e3fd4c4f80f862a2bebe1a8
+      internalID: 1039913491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_3"
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e64a41f5a3ef9648855b048fb18aa62
+      internalID: -2083729227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_4"
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e411ece2cff1a4546a0ddc98822c5175
+      internalID: 1703118588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_5"
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476d5e1ab0afaba41a92f89f0101ac9c
+      internalID: -1105020150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_6"
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20b19864ca2dd84d837cf154c8d6230
+      internalID: -911305030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_7"
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688bc14001416924c837c8cbe319c688
+      internalID: -940559236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_8"
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46eb3448f39352a4bb0446d34c313469
+      internalID: 487744192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_9"
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c809801c37bb948a21611dacf5b30f
+      internalID: 1817026935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_10"
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57702c2f53bd9204e8b46301986a2b03
+      internalID: 2023423035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_11"
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 1530
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f263de5c8a7f7c44ac892f323b92d40
+      internalID: 1964413263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_12"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee45e2ed5be03949bc6d6e63017bc62
+      internalID: -1902929678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_13"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87a76905d0be5a45b3c97162c298676
+      internalID: 949645188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_14"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683e43a2116317d4299fb9fff3afcc34
+      internalID: 1510825714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_15"
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efa2b51592aa4843989ef3cfaa95d14
+      internalID: -1958080427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_16"
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5054e8220c40e40a51706d0037617d
+      internalID: 295948488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_17"
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761b01984e6897c4f8a433110076769c
+      internalID: -1493999828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_18"
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6df40a0e34f9b444879b3fb7922e931
+      internalID: 1974469966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_19"
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a86e665a324e345998a44a53afddeb
+      internalID: -515575650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_20"
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5dc36b5a6700b48a0a92899ead2570
+      internalID: 27250346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_21"
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1224
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5209b30994e664cb428a0910fddd2f
+      internalID: 1236336386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_22"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af57d5a62c5428d42813407462b29e8c
+      internalID: 1066076076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_23"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543492dbb8de1cf478d242fab37c3cdb
+      internalID: 894854522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_24"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c39b91008b31c2468b3205d6c23a3cb
+      internalID: 1567549552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_25"
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6e427edf8236f4eb5959ee7c20e37d
+      internalID: 1701971903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_26"
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042b283c8bfc7dd4bb61d220c4b01ffb
+      internalID: -472385269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_27"
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874246db698772541962b88080732adb
+      internalID: 1556969971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_28"
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca4fb8923b42614caf7ab51dbc418d6
+      internalID: -1242170548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_29"
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c5268d120bc5048beea78075168480
+      internalID: 1556432857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_30"
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f8d7ca4407e974ab96ea9d5daea77d
+      internalID: 2038473815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_31"
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0977f95b83f37184e85138bd590aa704
+      internalID: -1338356069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_32"
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80be85dd4f9ed9b4ea29d4da75594300
+      internalID: -1634890227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_33"
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 918
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9693c74bb5ef88d42bd4fb3705455f92
+      internalID: 1975057636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_34"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c77339b355fdc849979ae45d99a5a19
+      internalID: 830995297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_35"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683420c3a1375fe47a7e52bdb12e653d
+      internalID: -139915876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_36"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991822fce04e6ef45b829b9939ab87f1
+      internalID: -1493264607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_37"
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6dd48daf4ce5e42861c2710f360f12
+      internalID: -1136730970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_38"
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6baec25356a53a4498d0b4e464d4c925
+      internalID: -981980200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_39"
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe72e6d46483d75498efc5e7d13eb1a3
+      internalID: 56042901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_40"
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df56e86cbfbfdad4ea62ce955bc1bda0
+      internalID: 729550897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_41"
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260f048aaa073c54cb00029f532cdd67
+      internalID: 1779951497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_42"
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86bc4fc280dd9049abbb9c71b6d9e26
+      internalID: 1627582719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_43"
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 612
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402693baa74a99c48afaf60d10d71921
+      internalID: -740137529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_44"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00591ad0c65e374a9bba50a8615f326
+      internalID: 1960413308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_45"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97ba14e4f06cec4f952bc447061860e
+      internalID: 2071238458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_46"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837ead113fb943542848a7c8302daaef
+      internalID: 1038768074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_47"
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f2e02f181804149a1c3b159f97476d
+      internalID: 163208555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_48"
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114a1ba3b8585d64fbd8b994aeed8ee0
+      internalID: -1935327353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_49"
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478f4e8d4689ca64e9c9e30b3b8d5b30
+      internalID: 842351413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_50"
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72612043c29e91a49b875f409a8183e2
+      internalID: 1259288707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_51"
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b73d7f675ca1ac479f8364128f1f50c
+      internalID: 214193469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_52"
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d47a6c20ba9334fbb134a60b79719d
+      internalID: -1444310980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_53"
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99d915e5a320dc45a8e9b323aa1622b
+      internalID: 479304691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_54"
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabdebc185ea90c48a8e8cf6cb5e1d90
+      internalID: -104292678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_55"
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 306
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ee44d0e48a0914ba84ee390b683cf5
+      internalID: 371505284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_56"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5467907bacbe64f8cd3584ab11d01f
+      internalID: -1160028196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_57"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6109bd86e282091439a7a212654acb7a
+      internalID: 1076718161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_58"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee33f1e69fed3c4ea0b06fccfdce199
+      internalID: -1355168660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_59"
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90cf4a2f745cdf4cbe801c68693c08b
+      internalID: 1767853863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_60"
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea30c3d4c4cb3ad41b3b9c204e153124
+      internalID: 1153100643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_61"
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311df46cb72eb51458d6b33348329ea6
+      internalID: 1651950145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_62"
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef0f23ac03b15245b9c1bba874e88c3
+      internalID: -262722650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_63"
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a7fdc11e6bf7e45b7b1508f8aad0a7
+      internalID: -853052695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_64"
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5312fc9a43bcd7c449c9f08dc60e8ace
+      internalID: 1515826877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_65"
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43d2bb252d84d047941b326e3535ce6
+      internalID: 817459739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u516C\u4E3B_girl_body_66"
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 0
+        width: 165
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bde935bb917764dbe128f63a07f835
+      internalID: 1748684458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\u516C\u4E3B_girl_body_0": -1466668827
+      "\u516C\u4E3B_girl_body_1": 1909426533
+      "\u516C\u4E3B_girl_body_10": 2023423035
+      "\u516C\u4E3B_girl_body_11": 1964413263
+      "\u516C\u4E3B_girl_body_12": -1902929678
+      "\u516C\u4E3B_girl_body_13": 949645188
+      "\u516C\u4E3B_girl_body_14": 1510825714
+      "\u516C\u4E3B_girl_body_15": -1958080427
+      "\u516C\u4E3B_girl_body_16": 295948488
+      "\u516C\u4E3B_girl_body_17": -1493999828
+      "\u516C\u4E3B_girl_body_18": 1974469966
+      "\u516C\u4E3B_girl_body_19": -515575650
+      "\u516C\u4E3B_girl_body_2": 1039913491
+      "\u516C\u4E3B_girl_body_20": 27250346
+      "\u516C\u4E3B_girl_body_21": 1236336386
+      "\u516C\u4E3B_girl_body_22": 1066076076
+      "\u516C\u4E3B_girl_body_23": 894854522
+      "\u516C\u4E3B_girl_body_24": 1567549552
+      "\u516C\u4E3B_girl_body_25": 1701971903
+      "\u516C\u4E3B_girl_body_26": -472385269
+      "\u516C\u4E3B_girl_body_27": 1556969971
+      "\u516C\u4E3B_girl_body_28": -1242170548
+      "\u516C\u4E3B_girl_body_29": 1556432857
+      "\u516C\u4E3B_girl_body_3": -2083729227
+      "\u516C\u4E3B_girl_body_30": 2038473815
+      "\u516C\u4E3B_girl_body_31": -1338356069
+      "\u516C\u4E3B_girl_body_32": -1634890227
+      "\u516C\u4E3B_girl_body_33": 1975057636
+      "\u516C\u4E3B_girl_body_34": 830995297
+      "\u516C\u4E3B_girl_body_35": -139915876
+      "\u516C\u4E3B_girl_body_36": -1493264607
+      "\u516C\u4E3B_girl_body_37": -1136730970
+      "\u516C\u4E3B_girl_body_38": -981980200
+      "\u516C\u4E3B_girl_body_39": 56042901
+      "\u516C\u4E3B_girl_body_4": 1703118588
+      "\u516C\u4E3B_girl_body_40": 729550897
+      "\u516C\u4E3B_girl_body_41": 1779951497
+      "\u516C\u4E3B_girl_body_42": 1627582719
+      "\u516C\u4E3B_girl_body_43": -740137529
+      "\u516C\u4E3B_girl_body_44": 1960413308
+      "\u516C\u4E3B_girl_body_45": 2071238458
+      "\u516C\u4E3B_girl_body_46": 1038768074
+      "\u516C\u4E3B_girl_body_47": 163208555
+      "\u516C\u4E3B_girl_body_48": -1935327353
+      "\u516C\u4E3B_girl_body_49": 842351413
+      "\u516C\u4E3B_girl_body_5": -1105020150
+      "\u516C\u4E3B_girl_body_50": 1259288707
+      "\u516C\u4E3B_girl_body_51": 214193469
+      "\u516C\u4E3B_girl_body_52": -1444310980
+      "\u516C\u4E3B_girl_body_53": 479304691
+      "\u516C\u4E3B_girl_body_54": -104292678
+      "\u516C\u4E3B_girl_body_55": 371505284
+      "\u516C\u4E3B_girl_body_56": -1160028196
+      "\u516C\u4E3B_girl_body_57": 1076718161
+      "\u516C\u4E3B_girl_body_58": -1355168660
+      "\u516C\u4E3B_girl_body_59": 1767853863
+      "\u516C\u4E3B_girl_body_6": -911305030
+      "\u516C\u4E3B_girl_body_60": 1153100643
+      "\u516C\u4E3B_girl_body_61": 1651950145
+      "\u516C\u4E3B_girl_body_62": -262722650
+      "\u516C\u4E3B_girl_body_63": -853052695
+      "\u516C\u4E3B_girl_body_64": 1515826877
+      "\u516C\u4E3B_girl_body_65": 817459739
+      "\u516C\u4E3B_girl_body_66": 1748684458
+      "\u516C\u4E3B_girl_body_7": -940559236
+      "\u516C\u4E3B_girl_body_8": 487744192
+      "\u516C\u4E3B_girl_body_9": 1817026935
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
