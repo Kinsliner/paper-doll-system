@@ -16,7 +16,6 @@ MonoBehaviour:
   - Closet
   - BodyNodeButton
   - ClosetSlot
-  - PaperDollSystem
   keys:
   - Closet_SlotRoot
   - Closet_BodyNodeButtonRoot
@@ -34,7 +33,6 @@ MonoBehaviour:
   - ClosetSlot_BodyImage
   - ClosetSlot_HeadImage
   - ClosetSlot_Button
-  - PaperDollSystem_CharacterRoot
   IncreaseCollectorID: 0
   collectorKeys:
   - id: -1
@@ -62,7 +60,3 @@ MonoBehaviour:
     - ClosetSlot_BodyImage
     - ClosetSlot_HeadImage
     - ClosetSlot_Button
-  - id: -1
-    guid: fc1015838ec5ddc408a6aa61162707c1
-    keys:
-    - PaperDollSystem_CharacterRoot

@@ -34,7 +34,5 @@ namespace Ez.Tool
         public const string ClosetSlot_HeadImage = "ClosetSlot_HeadImage";
         
         public const string ClosetSlot_Button = "ClosetSlot_Button";
-        
-        public const string PaperDollSystem_CharacterRoot = "PaperDollSystem_CharacterRoot";
     }
 }
