@@ -50,7 +50,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5768231684829236262, guid: f65ed6e4a9b8b2449b69d7580607b781, type: 3}
       propertyPath: m_Name
-      value: UI_Girl_Head_01
+      value: UI_Head_02_Cold
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871302711141010013, guid: f65ed6e4a9b8b2449b69d7580607b781, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1263948932, guid: 1b6e8f4e437168d40998c8d467a3fdcb, type: 3}
+    - target: {fileID: 5871302711141010013, guid: f65ed6e4a9b8b2449b69d7580607b781, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
