@@ -14,6 +14,8 @@ public class BodyNodeButton : MonoBehaviour
 
     public Action<BodyNodeButton, BodyNode> OnClickEvent;
 
+    public BodyNode Node => bodyNode;
+
     [SerializeField]
     private List<BodyNodeIcon> iconList = new List<BodyNodeIcon>();
 

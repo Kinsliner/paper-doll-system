@@ -23,7 +23,8 @@ public class ClosetPanelUI : MonoBehaviour
     private List<BodyNodeButton> bodyNodeButtons = new List<BodyNodeButton>();
     private List<ClosetSlot> closetSlots = new List<ClosetSlot>();
     private List<PaperDollController.PaperDollCache> currentCaches = new List<PaperDollController.PaperDollCache>();
-    private BodyNode currentNode;
+    private PaperDoll currentPaperDoll;
+    private BodyNode currentDisplayNode = BodyNode.Head;
     private int currentPage = 0;
     private int maxPage = 0;
 
@@ -33,11 +34,18 @@ public class ClosetPanelUI : MonoBehaviour
     public void Init()
     {
         paperDollController = PaperDollManager.Controller;
+        paperDollController.OnPaperDollSetEvent += OnPaperDollSet;
 
         BuildBodyNodeButtons();
         BuildClosetSlots();
         SetupPageButtons();
-        RefreshCloset();
+    }
+
+    private void OnPaperDollSet(PaperDoll doll)
+    {
+        currentPaperDoll = doll;
+
+        RefreshClosetByPaperDoll();
     }
 
     private void BuildBodyNodeButtons()
@@ -67,7 +75,9 @@ public class ClosetPanelUI : MonoBehaviour
 
     private void OnBodyNodeButtonClicked(BodyNodeButton sender, BodyNode node)
     {
-        RefreshCloset(node);
+        currentDisplayNode = node;
+
+        RefreshClosetByPaperDoll();
 
         // 通知按鈕選取
         sender.SetSelected(true);
@@ -157,7 +167,7 @@ public class ClosetPanelUI : MonoBehaviour
     public void RefreshCloset()
     {
         // 取得部位的所有項目
-        currentCaches = paperDollController.GetPaperDollCaches(currentNode);
+        currentCaches = paperDollController.GetPaperDollCaches(currentDisplayNode);
 
         // 重置頁數
         ResetPages();
@@ -173,10 +183,10 @@ public class ClosetPanelUI : MonoBehaviour
     public void RefreshCloset(BodyNode node)
     {
         // 設定目前部位
-        currentNode = node;
+        currentDisplayNode = node;
 
         // 取得部位的所有項目
-        currentCaches = paperDollController.GetPaperDollCaches(currentNode);
+        currentCaches = paperDollController.GetPaperDollCaches(currentDisplayNode);
 
         // 重置頁數
         ResetPages();
@@ -191,10 +201,10 @@ public class ClosetPanelUI : MonoBehaviour
     public void RefeshCloset(BodyNode node, int page)
     {
         // 設定目前部位
-        currentNode = node;
+        currentDisplayNode = node;
 
         // 取得部位的所有項目
-        currentCaches = paperDollController.GetPaperDollCaches(currentNode);
+        currentCaches = paperDollController.GetPaperDollCaches(currentDisplayNode);
 
         // 重置並跳到指定頁數
         ResetToPage(page);
@@ -256,5 +266,69 @@ public class ClosetPanelUI : MonoBehaviour
         {
             closetSlots[i - startIndex].Display(currentCaches[i]);
         }
+    }
+
+    /// <summary>
+    /// 根據PaperDoll更新衣櫃
+    /// </summary>
+    public void RefreshClosetByPaperDoll()
+    {
+        if (currentPaperDoll != null)
+        {
+            var cache = currentPaperDoll.GetCache(currentDisplayNode);
+            if (cache != null)
+            {
+                int page = FindPageByCache(cache);
+                RefeshCloset(currentDisplayNode, page);
+                Select(cache);
+            }
+        }
+    }
+
+    /// <summary>
+    /// 尋找指定Cache所在的頁數
+    /// </summary>
+    public int FindPageByCache(PaperDollController.PaperDollCache cache)
+    {
+        int index = currentCaches.FindIndex(p => p == cache);
+        if (index < 0)
+        {
+            return -1;
+        }
+
+        return Mathf.CeilToInt((float)(index + 1) / slotPerPage);
+    }
+
+    /// <summary>
+    /// 選取指定Cache
+    /// </summary>
+    private void Select(PaperDollController.PaperDollCache cache)
+    {
+        // 選取指定Slot
+        foreach (ClosetSlot slot in closetSlots)
+        {
+            if (slot.Cache == cache)
+            {
+                slot.Select();
+            }
+            else
+            {
+                slot.Unselect();
+            }
+        }
+
+        // 選取指定BodyNodeButton
+        foreach (BodyNodeButton button in bodyNodeButtons)
+        {
+            if (button.Node == cache.node)
+            {
+                button.SetSelected(true);
+            }
+            else
+            {
+                button.SetSelected(false);
+            }
+        }
+
     }
 }

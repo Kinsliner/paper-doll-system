@@ -37,6 +37,40 @@ public class PaperDollController
     }
 
     /// <summary>
+    /// 初始化PaperDoll
+    /// </summary>
+    /// <param name="paperDoll"></param>
+    public void InitPaperDoll(PaperDoll paperDoll)
+    {
+        currentPaperDoll = paperDoll;
+
+        var bodyNodes = Enum.GetValues(typeof(BodyNode));
+        foreach (BodyNode node in bodyNodes)
+        {
+            var paperDollCache = paperDollCaches.Find(p => p.node == node);
+            Attach(paperDollCache);
+        }
+    }
+
+    /// <summary>
+    /// 設置當前PaperDoll
+    /// </summary>
+    /// <param name="paperDoll"></param>
+    /// <param name="bodyNodes"></param>
+    public void SetupPaperDoll(PaperDoll paperDoll, params BodyNode[] bodyNodes)
+    {
+        currentPaperDoll = paperDoll;
+
+        foreach (BodyNode node in bodyNodes)
+        {
+            var paperDollCache = paperDollCaches.Find(p => p.node == node);
+            Attach(paperDollCache);
+        }
+
+        OnPaperDollSetEvent?.Invoke(currentPaperDoll);
+    }
+
+    /// <summary>
     /// 設置當前PaperDoll
     /// </summary>
     public void SetupPaperDoll(PaperDoll paperDoll)

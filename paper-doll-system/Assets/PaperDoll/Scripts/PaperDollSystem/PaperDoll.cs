@@ -46,6 +46,9 @@ public class PaperDoll : MonoBehaviour
     {
     }
 
+    /// <summary>
+    /// 附加部位
+    /// </summary>
     public void Attach(PaperDollController.PaperDollCache paperDollCache)
     {
         // 取得緩存資料

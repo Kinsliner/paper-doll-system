@@ -20,6 +20,8 @@ public class ClosetSlot : MonoBehaviour
 
     public bool IsEmpty { get; private set; }
 
+    public PaperDollController.PaperDollCache Cache => cache;
+
     [SerializeField]
     private UICollector uiCollector;
 
