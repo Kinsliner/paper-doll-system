@@ -7,21 +7,31 @@ using UnityEngine;
 public class CharacterRoot : MonoBehaviour
 {
     [SerializeField]
-    private UICollector uiCollector;
+    private Transform root;
 
     private PaperDollController paperDollController;
-    private Transform characterRoot;
 
     public void Init()
     {
         paperDollController = PaperDollManager.Controller;
         paperDollController.OnPaperDollSetEvent += OnPaperDollSet;
 
-        characterRoot = uiCollector.GetAsset<Transform>(UIKey.PaperDollSystem_CharacterRoot);
+        if (root == null)
+        {
+            root = transform;
+        }
     }
 
     private void OnPaperDollSet(PaperDoll doll)
     {
-        doll.transform.SetAndFitParent(characterRoot);
+        if (doll == null)
+        {
+            return;
+        }
+        if (root == null)
+        {
+            root = transform;
+        }
+        doll.transform.SetAndFitParent(root);
     }
 }

@@ -240,7 +240,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3526854722426857920}
-  - component: {fileID: 1369424800164969673}
   - component: {fileID: 6828521584858318712}
   m_Layer: 0
   m_Name: '[CharacterRoot]'
@@ -267,26 +266,6 @@ Transform:
   - {fileID: 652115749856077563}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1369424800164969673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4776791024618101381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c64fd0a6df21d6459e87b40880c5c08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectorID: -1
-  guid: fc1015838ec5ddc408a6aa61162707c1
-  groupName: PaperDollSystem
-  UIAsset:
-  - realKey: PaperDollSystem_CharacterRoot
-    groupName: PaperDollSystem
-    keyName: CharacterRoot
-    asset: {fileID: 8713780480271981813}
 --- !u!114 &6828521584858318712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,4 +278,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e42f5f23692d90b42bbe2f5ac74467ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiCollector: {fileID: 1369424800164969673}
+  root: {fileID: 8713780480271981813}
