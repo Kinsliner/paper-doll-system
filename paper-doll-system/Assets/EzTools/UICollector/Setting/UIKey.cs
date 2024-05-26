@@ -37,6 +37,10 @@ namespace Ez.Tool
         
         public const string ClosetSlot_Button = "ClosetSlot_Button";
         
+        public const string ClosetSlot_LockIcon = "ClosetSlot_LockIcon";
+        
+        public const string ClosetSlot_LockMask = "ClosetSlot_LockMask";
+        
         public const string Character_TurnLeftButton = "Character_TurnLeftButton";
         
         public const string Character_TurnRightButton = "Character_TurnRightButton";

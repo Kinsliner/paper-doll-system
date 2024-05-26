@@ -35,6 +35,8 @@ MonoBehaviour:
   - ClosetSlot_HeadImage
   - ClosetSlot_BackImage
   - ClosetSlot_Button
+  - ClosetSlot_LockIcon
+  - ClosetSlot_LockMask
   - Character_TurnLeftButton
   - Character_TurnRightButton
   IncreaseCollectorID: 0
@@ -65,6 +67,8 @@ MonoBehaviour:
     - ClosetSlot_HeadImage
     - ClosetSlot_BackImage
     - ClosetSlot_Button
+    - ClosetSlot_LockIcon
+    - ClosetSlot_LockMask
   - id: -1
     guid: 83c4a8e4b4710a1418477fc2b6f0cab7
     keys:
