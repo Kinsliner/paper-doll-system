@@ -16,6 +16,7 @@ MonoBehaviour:
   - Closet
   - BodyNodeButton
   - ClosetSlot
+  - Character
   keys:
   - Closet_SlotRoot
   - Closet_BodyNodeButtonRoot
@@ -34,6 +35,8 @@ MonoBehaviour:
   - ClosetSlot_HeadImage
   - ClosetSlot_BackImage
   - ClosetSlot_Button
+  - Character_TurnLeftButton
+  - Character_TurnRightButton
   IncreaseCollectorID: 0
   collectorKeys:
   - id: -1
@@ -62,3 +65,8 @@ MonoBehaviour:
     - ClosetSlot_HeadImage
     - ClosetSlot_BackImage
     - ClosetSlot_Button
+  - id: -1
+    guid: 83c4a8e4b4710a1418477fc2b6f0cab7
+    keys:
+    - Character_TurnLeftButton
+    - Character_TurnRightButton

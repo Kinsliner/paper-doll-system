@@ -36,5 +36,9 @@ namespace Ez.Tool
         public const string ClosetSlot_BackImage = "ClosetSlot_BackImage";
         
         public const string ClosetSlot_Button = "ClosetSlot_Button";
+        
+        public const string Character_TurnLeftButton = "Character_TurnLeftButton";
+        
+        public const string Character_TurnRightButton = "Character_TurnRightButton";
     }
 }
