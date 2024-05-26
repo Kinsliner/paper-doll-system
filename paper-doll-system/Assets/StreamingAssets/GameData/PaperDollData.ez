@@ -5,133 +5,475 @@
             "name": "頭1",
             "node": 0,
             "assetID": 1001,
-            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_01"
+            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_01",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 3
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": -2
+                }
+            ]
         },
         {
             "id": 10002,
             "name": "頭2",
             "node": 0,
             "assetID": 1002,
-            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_02"
+            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_02",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 2
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": 2
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": 2
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": 2
+                }
+            ]
         },
         {
             "id": 10003,
             "name": "頭3",
             "node": 0,
             "assetID": 1003,
-            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_03"
+            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_03",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 2
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": 2
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": 2
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": 2
+                }
+            ]
         },
         {
             "id": 10004,
             "name": "頭4",
             "node": 0,
             "assetID": 1004,
-            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_04"
+            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_04",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": -2
+                }
+            ]
         },
         {
             "id": 10005,
             "name": "頭5",
             "node": 0,
             "assetID": 1005,
-            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_05"
+            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_05",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 3
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": -2
+                }
+            ]
         },
         {
             "id": 10006,
             "name": "頭6",
             "node": 0,
             "assetID": 1006,
-            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_06"
+            "iconPath": "PaperDoll/Sprites/Head/img_girl_01_head_06",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": -2
+                }
+            ]
         },
         {
             "id": 10007,
             "name": "頭7",
             "node": 0,
             "assetID": 1007,
-            "iconPath": "PaperDoll/Sprites/Head/img_boy_01_head_01"
+            "iconPath": "PaperDoll/Sprites/Head/img_boy_01_head_01",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": -2
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": -2
+                }
+            ]
         },
         {
             "id": 20001,
             "name": "身體1",
             "node": 1,
             "assetID": 2001,
-            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_01"
+            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_01",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": 0
+                }
+            ]
         },
         {
             "id": 20002,
             "name": "身體2",
             "node": 1,
             "assetID": 2002,
-            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_02"
+            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_02",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": 0
+                }
+            ]
         },
         {
             "id": 20003,
             "name": "身體3",
             "node": 1,
             "assetID": 2003,
-            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_03"
+            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_03",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": 0
+                }
+            ]
         },
         {
             "id": 20004,
             "name": "身體4",
             "node": 1,
             "assetID": 2004,
-            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_04"
+            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_04",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": 0
+                }
+            ]
         },
         {
             "id": 20005,
             "name": "身體5",
             "node": 1,
             "assetID": 2005,
-            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_05"
+            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_05",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": 0
+                }
+            ]
         },
         {
             "id": 20006,
             "name": "身體6",
             "node": 1,
             "assetID": 2006,
-            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_06"
+            "iconPath": "PaperDoll/Sprites/Body/img_girl_01_body_06",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": 0
+                }
+            ]
         },
         {
             "id": 20007,
             "name": "身體7",
             "node": 1,
             "assetID": 2007,
-            "iconPath": "PaperDoll/Sprites/Body/img_boy_01_body_01"
+            "iconPath": "PaperDoll/Sprites/Body/img_boy_01_body_01",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": 0
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": 0
+                }
+            ]
         },
         {
             "id": 30001,
             "name": "背1",
             "node": 2,
             "assetID": 3001,
-            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_01"
+            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_01",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 5
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": -5
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": -5
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": -5
+                }
+            ]
         },
         {
             "id": 30002,
             "name": "背2",
             "node": 2,
             "assetID": 3002,
-            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_02"
+            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_02",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 5
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": -5
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": -5
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": -5
+                }
+            ]
         },
         {
             "id": 30003,
             "name": "背3",
             "node": 2,
             "assetID": 3003,
-            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_03"
+            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_03",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 5
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": -5
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": -5
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": -5
+                }
+            ]
         },
         {
             "id": 30004,
             "name": "背4",
             "node": 2,
             "assetID": 3004,
-            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_04"
+            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_04",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 5
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": -5
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": -5
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": -5
+                }
+            ]
         },
         {
             "id": 30005,
             "name": "背5",
             "node": 2,
             "assetID": 3005,
-            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_05"
+            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_05",
+            "sideDatas": [
+                {
+                    "direction": 0,
+                    "overrideSortOrder": 5
+                },
+                {
+                    "direction": 1,
+                    "overrideSortOrder": -5
+                },
+                {
+                    "direction": 2,
+                    "overrideSortOrder": -5
+                },
+                {
+                    "direction": 3,
+                    "overrideSortOrder": -5
+                }
+            ]
         }
     ]
 }
