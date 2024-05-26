@@ -110,28 +110,28 @@
             "assetID": 3002,
             "assetName": "背2",
             "bundletId": 0,
-            "assetPath": "PaperDoll/Back/UI_Back_01_Log"
+            "assetPath": "PaperDoll/Back/UI_Back_02_Log"
         },
         {
             "provideType": 1,
             "assetID": 3003,
             "assetName": "背3",
             "bundletId": 0,
-            "assetPath": "PaperDoll/Back/UI_Back_01_Audio"
+            "assetPath": "PaperDoll/Back/UI_Back_03_Audio"
         },
         {
             "provideType": 1,
             "assetID": 3004,
             "assetName": "背4",
             "bundletId": 0,
-            "assetPath": "PaperDoll/Back/UI_Back_01_Book"
+            "assetPath": "PaperDoll/Back/UI_Back_04_Book"
         },
         {
             "provideType": 1,
             "assetID": 3005,
             "assetName": "背5",
             "bundletId": 0,
-            "assetPath": "PaperDoll/Back/UI_Back_01_Cloak"
+            "assetPath": "PaperDoll/Back/UI_Back_05_Cloak"
         }
     ]
 }
