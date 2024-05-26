@@ -5,6 +5,7 @@ using UnityEngine;
 public class Test : MonoBehaviour
 {
     public ClosetPanelUI closetPanelUI;
+    public CharacterPanelUI characterPanelUI;
     public PaperDoll character;
     public CharacterRoot characterRoot;
 
@@ -17,6 +18,10 @@ public class Test : MonoBehaviour
         if (closetPanelUI != null)
         {
             closetPanelUI.Init();
+        }
+        if (characterPanelUI != null)
+        {
+            characterPanelUI.Init();
         }
         if (characterRoot != null)
         {
