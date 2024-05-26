@@ -50,12 +50,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5768231684829236262, guid: f65ed6e4a9b8b2449b69d7580607b781, type: 3}
       propertyPath: m_Name
-      value: UI_Girl_Head_01
+      value: UI_Head_01_Girl
       objectReference: {fileID: 0}
     - target: {fileID: 5871302711141010013, guid: f65ed6e4a9b8b2449b69d7580607b781, type: 3}
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 7156188673026106610, guid: f65ed6e4a9b8b2449b69d7580607b781, type: 3}
+      propertyPath: m_SpriteLibraryAsset
+      value: 
+      objectReference: {fileID: 7108339969198208228, guid: 23f33b7a5f950a14f85bcb8ad8b749b2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

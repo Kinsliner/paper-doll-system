@@ -8,9 +8,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2269514399486188559, guid: a84008a4f3a73594498d7411c6b54915, type: 3}
+      propertyPath: m_SpriteLibraryAsset
+      value: 
+      objectReference: {fileID: 7108339969198208228, guid: 4727fc7196b633048959e3abd8174ddc, type: 3}
     - target: {fileID: 815545295305220653, guid: a84008a4f3a73594498d7411c6b54915, type: 3}
       propertyPath: m_Name
-      value: UI_Cold_Body_01
+      value: UI_Body_02_Cold
       objectReference: {fileID: 0}
     - target: {fileID: 2315575874452214406, guid: a84008a4f3a73594498d7411c6b54915, type: 3}
       propertyPath: m_LocalPosition.x
