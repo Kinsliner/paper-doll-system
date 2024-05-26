@@ -92,4 +92,23 @@ public class PaperDoll : MonoBehaviour
 
         return bodyPart.CacheData;
     }
+
+    public void PlayAnim(string animName)
+    {
+        foreach (var part in parts)
+        {
+            if (part.attachObject == null)
+            {
+                continue;
+            }
+
+            var animator = part.attachObject.GetComponent<Animator>();
+            if (animator == null)
+            {
+                continue;
+            }
+
+            animator.CrossFade(animName, 0.1f, 0, 0);
+        }
+    }
 }

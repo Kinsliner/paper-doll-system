@@ -97,6 +97,7 @@ public class PaperDollController
         if (paperDollCache != null && currentPaperDoll != null)
         {
             currentPaperDoll.Attach(paperDollCache);
+            currentPaperDoll.PlayAnim("Idle");
         }
     }
 }
