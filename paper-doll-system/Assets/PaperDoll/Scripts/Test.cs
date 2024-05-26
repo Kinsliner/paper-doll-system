@@ -8,6 +8,7 @@ public class Test : MonoBehaviour
     public CharacterPanelUI characterPanelUI;
     public PaperDoll character;
     public CharacterRoot characterRoot;
+    public int testLcokID = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -31,9 +32,15 @@ public class Test : MonoBehaviour
         PaperDollManager.Controller.SetupPaperDoll(character, BodyNode.Head, BodyNode.Body);
     }
 
-    // Update is called once per frame
-    void Update()
+    [ContextMenu("Lock")]
+    private void Lock()
     {
-        
+        PaperDollManager.Controller.Lock(testLcokID);
+    }
+
+    [ContextMenu("UnLock")]
+    private void UnLock()
+    {
+        PaperDollManager.Controller.Unlock(testLcokID);
     }
 }
