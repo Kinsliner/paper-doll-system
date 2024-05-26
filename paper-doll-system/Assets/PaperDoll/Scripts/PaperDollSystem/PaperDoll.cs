@@ -13,6 +13,17 @@ public enum BodyNode
     Back
 }
 
+/// <summary>
+/// 部位方向
+/// </summary>
+public enum BodyDirection
+{
+    Back,
+    Left,
+    Front,
+    Right,
+}
+
 [System.Serializable]
 public class BodyPart
 {
@@ -40,8 +51,12 @@ public class BodyPart
 
 public class PaperDoll : MonoBehaviour
 {
+    public BodyDirection CurrentDirection => currentDirection;
+
     [SerializeField]
     private List<BodyPart> parts = new List<BodyPart>(); // 部位列表
+
+    private BodyDirection currentDirection = BodyDirection.Front;
 
     void Start()
     {
@@ -94,6 +109,35 @@ public class PaperDoll : MonoBehaviour
         return bodyPart.CacheData;
     }
 
+    /// <summary>
+    /// 設定紙娃娃方向，會連動所有部位統一設定
+    /// </summary>
+    public void SetDirection(BodyDirection direction)
+    {
+        currentDirection = direction;
+
+        switch (direction)
+        {
+            case BodyDirection.Front:
+                PlayAnim("Idle");
+                break;
+            case BodyDirection.Back:
+                PlayAnim("IdleBack");
+                break;
+            case BodyDirection.Left:
+                PlayAnim("IdleSideLeft");
+                break;
+            case BodyDirection.Right:
+                PlayAnim("IdleSideRight");
+                break;
+        }
+
+        SetOrderByDirection(direction);
+    }
+
+    /// <summary>
+    /// 播放動畫，會連動所有部位統一播放
+    /// </summary>
     public void PlayAnim(string animName)
     {
         foreach (var part in parts)
@@ -109,7 +153,39 @@ public class PaperDoll : MonoBehaviour
                 continue;
             }
 
-            animator.CrossFade(animName, 0.1f, 0, 0);
+            animator.Play(animName, 0, 0);
+        }
+    }
+
+    /// <summary>
+    /// 根據方向設定排序層級
+    /// </summary>
+    private void SetOrderByDirection(BodyDirection direction)
+    {
+        foreach (var part in parts)
+        {
+            if (part.attachObject == null)
+            {
+                continue;
+            }
+
+            var spriteRenderer = part.attachObject.GetComponent<SpriteRenderer>();
+            if (spriteRenderer == null)
+            {
+                continue;
+            }
+
+            if (part.CacheData == null)
+            {
+                continue;
+            }
+
+            if (part.CacheData.sortOrders.ContainsKey(direction) == false)
+            {
+                continue;
+            }
+
+            spriteRenderer.sortingOrder = part.CacheData.sortOrders[direction];
         }
     }
 }

@@ -8,6 +8,14 @@ public class PaperDollData
     public BodyNode node;
     public int assetID;
     public string iconPath;
+    public List<SideData> sideDatas = new List<SideData>();
+}
+
+[System.Serializable]
+public class SideData
+{
+    public BodyDirection direction;
+    public int overrideSortOrder;
 }
 
 [System.Serializable]

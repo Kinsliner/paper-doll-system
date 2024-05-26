@@ -145,6 +145,8 @@ public class PaperDollEditor : EzEditorWindow
         DrawModelAssetID(currentEdit);
 
         DrawIconPath(currentEdit);
+
+        DrawSideDatas(currentEdit);
     }
 
     private void DrawModelAssetID(EditPaperDollData currentEdit)
@@ -172,5 +174,34 @@ public class PaperDollEditor : EzEditorWindow
     private void DrawIconPath(EditPaperDollData currentEdit)
     {
         currentEdit.data.iconPath = EditorGUILayout.TextField("圖示路徑", currentEdit.data.iconPath);
+    }
+
+    private void DrawSideDatas(EditPaperDollData currentEdit)
+    {
+        var directions = Enum.GetValues(typeof(BodyDirection));
+
+        if (currentEdit.data.sideDatas == null || currentEdit.data.sideDatas.Count < directions.Length)
+        {
+            // add four directions
+            currentEdit.data.sideDatas = new List<SideData>();
+            foreach (BodyDirection direction in directions)
+            {
+                currentEdit.data.sideDatas.Add(new SideData()
+                {
+                    direction = direction,
+                    overrideSortOrder = 0,
+                });
+            }
+        }
+
+        GUILayout.Label("方向資料", EditorExtension.HightlightTitle);
+        foreach (var sideData in currentEdit.data.sideDatas)
+        {
+            using (new GUILayout.HorizontalScope("box"))
+            {
+                EditorGUILayout.LabelField(sideData.direction.ToString(), GUILayout.Width(150));
+                sideData.overrideSortOrder = EditorGUILayout.IntField("SortOrder", sideData.overrideSortOrder);
+            }
+        }
     }
 }
