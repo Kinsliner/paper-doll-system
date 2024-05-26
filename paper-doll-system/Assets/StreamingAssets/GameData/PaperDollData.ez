@@ -97,6 +97,41 @@
             "node": 1,
             "assetID": 2007,
             "iconPath": "PaperDoll/Sprites/Body/img_boy_01_body_01"
+        },
+        {
+            "id": 30001,
+            "name": "背1",
+            "node": 2,
+            "assetID": 3001,
+            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_01"
+        },
+        {
+            "id": 30002,
+            "name": "背2",
+            "node": 2,
+            "assetID": 3002,
+            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_02"
+        },
+        {
+            "id": 30003,
+            "name": "背3",
+            "node": 2,
+            "assetID": 3003,
+            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_03"
+        },
+        {
+            "id": 30004,
+            "name": "背4",
+            "node": 2,
+            "assetID": 3004,
+            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_04"
+        },
+        {
+            "id": 30005,
+            "name": "背5",
+            "node": 2,
+            "assetID": 3005,
+            "iconPath": "PaperDoll/Sprites/Back/img_girl_01_back_05"
         }
     ]
 }
