@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEditor.U2D.Animation;
 using System;
 using System.Linq;
+using System.IO;
 
 public class SpriteLibCategoryCache
 {
@@ -91,10 +92,7 @@ public class SpriteLibraryKeyRenamer : EditorWindow
 
         List<SpriteLibCategoryCache> spriteLibCategoryCache = GetSpriteLibCategoryCache(selectedSpriteLibrary);
 
-        string path = AssetDatabase.GetAssetPath(sprite);
-
-        var objects = AssetDatabase.LoadAllAssetsAtPath(path);
-        var sprites = objects.Where(q => q is Sprite).Cast<Sprite>();
+        var sprites = GetSortSprites();
 
         Debug.Log($"Total sprites: {sprites.Count()}");
         Debug.Log($"Total cache: {spriteLibCategoryCache.Count}");
@@ -123,8 +121,6 @@ public class SpriteLibraryKeyRenamer : EditorWindow
                 Debug.LogError($"Category {category} not found in sprite library");
                 return;
             }
-
-            sprites.ToList().ForEach(q => Debug.Log(q.name));
 
             var splitSprites = sprites.Skip(startIndex).Take(endIndex - startIndex + 1).ToList();
 
@@ -155,6 +151,45 @@ public class SpriteLibraryKeyRenamer : EditorWindow
 
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
+    }
+
+    private List<Sprite> GetSortSprites()
+    {
+        string path = AssetDatabase.GetAssetPath(sprite);
+        var objects = AssetDatabase.LoadAllAssetsAtPath(path);
+        var sprites = objects.Where(q => q is Sprite).Cast<Sprite>().ToList();
+
+        sprites.Sort((a, b) =>
+        {
+            // sort by number
+            string aName = Path.GetFileNameWithoutExtension(a.name);
+            string bName = Path.GetFileNameWithoutExtension(b.name);
+
+            string regex = @"\d+";
+            var aMatch = System.Text.RegularExpressions.Regex.Match(aName, regex);
+            var bMatch = System.Text.RegularExpressions.Regex.Match(bName, regex);
+
+            if (aMatch.Success && bMatch.Success)
+            {
+                int aNumber = int.Parse(aMatch.Value);
+                int bNumber = int.Parse(bMatch.Value);
+
+                return aNumber.CompareTo(bNumber);
+            }
+            else
+            {
+                return aName.CompareTo(bName);
+            }
+
+        });
+
+        // log result
+        foreach (var item in sprites)
+        {
+            Debug.Log(item.name);
+        }
+
+        return sprites.ToList();
     }
 
     private void SaveSplitDatas()
