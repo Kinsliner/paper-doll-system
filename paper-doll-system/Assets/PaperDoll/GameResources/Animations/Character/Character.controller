@@ -62,7 +62,7 @@ AnimatorStateMachine:
     m_Position: {x: 380, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6069540479204179136}
-    m_Position: {x: 415, y: 65, z: 0}
+    m_Position: {x: 410, y: 60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6539743266421994008}
     m_Position: {x: 450, y: 130, z: 0}
@@ -83,7 +83,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Left Side
+  m_Name: IdleSide
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -109,7 +109,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Back
+  m_Name: IdleBack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
