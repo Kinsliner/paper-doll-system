@@ -10,6 +10,7 @@ public enum BodyNode
 {
     Head,
     Body,
+    Back
 }
 
 [System.Serializable]

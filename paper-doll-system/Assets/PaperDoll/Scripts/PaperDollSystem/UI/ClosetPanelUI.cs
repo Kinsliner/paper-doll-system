@@ -282,6 +282,10 @@ public class ClosetPanelUI : MonoBehaviour
                 RefeshCloset(currentDisplayNode, page);
                 Select(cache);
             }
+            else
+            {
+                RefreshCloset(currentDisplayNode);
+            }
         }
     }
 
