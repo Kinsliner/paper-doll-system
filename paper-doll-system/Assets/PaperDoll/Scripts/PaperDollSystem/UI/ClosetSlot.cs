@@ -20,6 +20,8 @@ public class ClosetSlot : MonoBehaviour
 
     public bool IsEmpty { get; private set; }
 
+    public bool IsLock { get; private set; }
+
     public PaperDollController.PaperDollCache Cache => cache;
 
     [SerializeField]
@@ -54,6 +56,7 @@ public class ClosetSlot : MonoBehaviour
     {
         DeactiveSlot();
         IsEmpty = true;
+        IsLock = false;
     }
 
     private void DeactiveSlot()
@@ -62,6 +65,8 @@ public class ClosetSlot : MonoBehaviour
         {
             uiCollector.SetActive(slotView.rootKey, false);
         }
+
+        SetActiveLock(false);
 
         uiCollector.SetInteractable(UIKey.ClosetSlot_Button, false);
     }
@@ -75,6 +80,8 @@ public class ClosetSlot : MonoBehaviour
         SetActiveRoot(paperDollCache.node);
         SetIcon(paperDollCache.node, paperDollCache.icon);
         IsEmpty = false;
+        IsLock = paperDollCache.isLocked;
+        SetActiveLock(IsLock);
         uiCollector.SetInteractable(UIKey.ClosetSlot_Button, true);
     }
 
@@ -105,6 +112,13 @@ public class ClosetSlot : MonoBehaviour
                 break;
             }
         }
+    }
+
+    private void SetActiveLock(bool isLock)
+    {
+        uiCollector.SetActive(UIKey.ClosetSlot_Lock, isLock);
+        uiCollector.SetActive(UIKey.ClosetSlot_LockIcon, isLock);
+        uiCollector.SetActive(UIKey.ClosetSlot_LockMask, isLock);
     }
 
     /// <summary>

@@ -5,6 +5,8 @@ using UnityEngine;
 public class PaperDollController
 {
     public Action<PaperDoll> OnPaperDollSetEvent;
+    public Action<PaperDollCache> OnLockEvent;
+    public Action<PaperDollCache> OnUnlockEvent;
 
     public class PaperDollCache
     {
@@ -13,6 +15,7 @@ public class PaperDollController
         public GameObject attachObject;
         public Sprite icon;
         public Dictionary<BodyDirection, int> sortOrders = new Dictionary<BodyDirection, int>();
+        public bool isLocked = false;
     }
 
     private List<PaperDollCache> paperDollCaches = new List<PaperDollCache>();
@@ -103,11 +106,42 @@ public class PaperDollController
         }
     }
 
+    /// <summary>
+    /// 旋轉至特定方向
+    /// </summary>
     public void Turn(BodyDirection currentDirection)
     {
         if (currentPaperDoll != null)
         {
             currentPaperDoll.SetDirection(currentDirection);
+        }
+    }
+
+    /// <summary>
+    /// 鎖定
+    /// </summary>
+    /// <param name="id">紙娃娃資料ID</param>
+    public void Lock(int id)
+    {
+        var find = paperDollCaches.Find(p => p.id == id);
+        if (find != null)
+        {
+            find.isLocked = true;
+            OnLockEvent?.Invoke(find);
+        }
+    }
+
+    /// <summary>
+    /// 解鎖
+    /// </summary>
+    /// <param name="id">紙娃娃資料ID</param>
+    public void Unlock(int id)
+    {
+        var find = paperDollCaches.Find(p => p.id == id);
+        if (find != null)
+        {
+            find.isLocked = false;
+            OnUnlockEvent?.Invoke(find);
         }
     }
 }

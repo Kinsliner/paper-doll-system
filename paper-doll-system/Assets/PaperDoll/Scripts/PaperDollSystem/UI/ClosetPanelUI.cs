@@ -2,7 +2,6 @@ using Ez.Tool;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class ClosetPanelUI : MonoBehaviour
@@ -35,10 +34,22 @@ public class ClosetPanelUI : MonoBehaviour
     {
         paperDollController = PaperDollManager.Controller;
         paperDollController.OnPaperDollSetEvent += OnPaperDollSet;
+        paperDollController.OnLockEvent += OnLock;
+        paperDollController.OnUnlockEvent += OnUnLock;
 
         BuildBodyNodeButtons();
         BuildClosetSlots();
         SetupPageButtons();
+    }
+
+    private void OnLock(PaperDollController.PaperDollCache lockData)
+    {
+        RefreshClosetByPaperDoll();
+    }
+
+    private void OnUnLock(PaperDollController.PaperDollCache unlockData)
+    {
+        RefreshClosetByPaperDoll();
     }
 
     private void OnPaperDollSet(PaperDoll doll)
