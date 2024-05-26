@@ -9,8 +9,8 @@ Sprite:
   m_Name: img_boy_01_body_01
   m_Rect:
     serializedVersion: 2
-    x: 660
-    y: 612
+    x: 0
+    y: 0
     width: 165
     height: 306
   m_Offset: {x: 0, y: 0}
@@ -22,12 +22,12 @@ Sprite:
   m_AtlasName: 
   m_PackingTag: 
   m_RenderDataKey:
-    86f74f1dd789ea9498fe54e5788c3b7e: -1151252751
+    953b13868038c2340aff79ba5ad5f5c9: 21300000
   m_AtlasTags: []
   m_SpriteAtlas: {fileID: 0}
   m_RD:
     serializedVersion: 3
-    texture: {fileID: 2800000, guid: 86f74f1dd789ea9498fe54e5788c3b7e, type: 3}
+    texture: {fileID: 2800000, guid: 953b13868038c2340aff79ba5ad5f5c9, type: 3}
     alphaTexture: {fileID: 0}
     secondaryTextures: []
     m_SubMeshes:
@@ -103,22 +103,22 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 208
-      _typelessdata: 48e1ba3e8fc2753e0000000014ae273f9a9919bf0000000014ae273f295c8fbe00000000d7a3b03e14aea7bf0000000014ae873e85ebb1bf00000000ae47a1be8fc2753e0000000048e1babe85ebb1bf00000000c3f508bfcdcc4c3e00000000713d2abf295c0fbe00000000713d2abf1f856bbf0000000000000000000000003a70c93eb106dc3ef8efd03eef99c43ef8efd03e6a86cd3ed5ebc83e3fcdb03e3fdac63e2092ae3ec3dab73eb106dc3ec68fb63e2092ae3e682ab23e22e9da3ed6cdae3ee06dd13ed6cdae3e75adbb3e
+      _typelessdata: 48e1ba3e8fc2753e0000000014ae273f9a9919bf0000000014ae273f295c8fbe00000000d7a3b03e14aea7bf0000000014ae873e85ebb1bf00000000ae47a1be8fc2753e0000000048e1babe85ebb1bf00000000c3f508bfcdcc4c3e00000000713d2abf295c0fbe00000000713d2abf1f856bbf0000000000000000000000005ca1383f1414143fce9f653f9c9b9b3ece9f653f7c26d13efb86353fe93d933d7b1d293f11663b3d2a419e3e1414143f49bd8e3e11663b3dcaf9333e66bb103f0c98c63d3e93e83e0c98c63d77214c3e
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
-      x: 676.0761
-      y: 626.02673
+      x: 16.07612
+      y: 14.026751
       width: 131.86751
       height: 162.89713
-    textureRectOffset: {x: 16.07611, y: 14.026733}
+    textureRectOffset: {x: 16.07612, y: 14.026751}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
-    uvTransform: {x: 100, y: 742.5, z: 100, w: 765}
+    uvTransform: {x: 100, y: 82.5, z: 100, w: 153}
     downscaleMultiplier: 1
   m_AtlasRD:
     serializedVersion: 3
-    texture: {fileID: 2800000, guid: 86f74f1dd789ea9498fe54e5788c3b7e, type: 3}
+    texture: {fileID: 2800000, guid: 953b13868038c2340aff79ba5ad5f5c9, type: 3}
     alphaTexture: {fileID: 0}
     secondaryTextures: []
     m_SubMeshes:
@@ -194,18 +194,18 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 208
-      _typelessdata: 48e1ba3e8fc2753e0000000014ae273f9a9919bf0000000014ae273f295c8fbe00000000d7a3b03e14aea7bf0000000014ae873e85ebb1bf00000000ae47a1be8fc2753e0000000048e1babe85ebb1bf00000000c3f508bfcdcc4c3e00000000713d2abf295c0fbe00000000713d2abf1f856bbf0000000000000000000000003a70c93eb106dc3ef8efd03eef99c43ef8efd03e6a86cd3ed5ebc83e3fcdb03e3fdac63e2092ae3ec3dab73eb106dc3ec68fb63e2092ae3e682ab23e22e9da3ed6cdae3ee06dd13ed6cdae3e75adbb3e
+      _typelessdata: 48e1ba3e8fc2753e0000000014ae273f9a9919bf0000000014ae273f295c8fbe00000000d7a3b03e14aea7bf0000000014ae873e85ebb1bf00000000ae47a1be8fc2753e0000000048e1babe85ebb1bf00000000c3f508bfcdcc4c3e00000000713d2abf295c0fbe00000000713d2abf1f856bbf0000000000000000000000005ca1383f1414143fce9f653f9c9b9b3ece9f653f7c26d13efb86353fe93d933d7b1d293f11663b3d2a419e3e1414143f49bd8e3e11663b3dcaf9333e66bb103f0c98c63d3e93e83e0c98c63d77214c3e
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
-      x: 676.0761
-      y: 626.02673
+      x: 16.07612
+      y: 14.026751
       width: 131.86751
       height: 162.89713
-    textureRectOffset: {x: 16.07611, y: 14.026733}
+    textureRectOffset: {x: 16.07612, y: 14.026751}
     atlasRectOffset: {x: -1, y: -1}
     settingsRaw: 64
-    uvTransform: {x: 100, y: 742.5, z: 100, w: 765}
+    uvTransform: {x: 100, y: 82.5, z: 100, w: 153}
     downscaleMultiplier: 1
   m_PhysicsShape:
   - - {x: 0.055, y: -1.17}
@@ -245,4 +245,4 @@ Sprite:
     - {x: -0.044999998, y: -0.63}
     - {x: 0.055, y: -0.55}
   m_Bones: []
-  m_SpriteID: fe857447a384d714db5a776596c582f3
+  m_SpriteID: 5e97eb03825dee720800000000000000
