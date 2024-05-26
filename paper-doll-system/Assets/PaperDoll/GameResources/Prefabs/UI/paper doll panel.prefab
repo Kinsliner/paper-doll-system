@@ -121,6 +121,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8744538110866761310}
+  - component: {fileID: 6081430154478689682}
+  - component: {fileID: 1650258863813899255}
   m_Layer: 5
   m_Name: character panel
   m_TagString: Untagged
@@ -149,6 +151,43 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6081430154478689682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949120986291431454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c45c7216f748e48a11c2fd41ddc703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiCollector: {fileID: 1650258863813899255}
+--- !u!114 &1650258863813899255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949120986291431454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c64fd0a6df21d6459e87b40880c5c08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectorID: -1
+  guid: 83c4a8e4b4710a1418477fc2b6f0cab7
+  groupName: Character
+  UIAsset:
+  - realKey: Character_TurnLeftButton
+    groupName: Character
+    keyName: TurnLeftButton
+    asset: {fileID: 8569289179263085989}
+  - realKey: Character_TurnRightButton
+    groupName: Character
+    keyName: TurnRightButton
+    asset: {fileID: 1716211772012796972}
 --- !u!1 &2518310489447748813
 GameObject:
   m_ObjectHideFlags: 0
