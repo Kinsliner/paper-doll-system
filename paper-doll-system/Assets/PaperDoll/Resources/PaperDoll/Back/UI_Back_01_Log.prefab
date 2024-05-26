@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2269514399486188559, guid: 058c74e960570a04cae909e853f8ab50, type: 3}
+      propertyPath: m_SpriteLibraryAsset
+      value: 
+      objectReference: {fileID: 7108339969198208228, guid: 3b525c8a776bfd44587c223cd1004a50, type: 3}
     - target: {fileID: 815545295305220653, guid: 058c74e960570a04cae909e853f8ab50, type: 3}
       propertyPath: m_Name
       value: UI_Back_01_Log
