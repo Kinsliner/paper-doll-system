@@ -25,13 +25,14 @@ MonoBehaviour:
   - BodyNodeButton_IconImage
   - BodyNodeButton_Animator
   - BodyNodeButton_SelectButton
-  - ClosetSlot_Free
   - ClosetSlot_Lock
   - ClosetSlot_Select
   - ClosetSlot_BodyRoot
   - ClosetSlot_HeadRoot
+  - ClosetSlot_BackRoot
   - ClosetSlot_BodyImage
   - ClosetSlot_HeadImage
+  - ClosetSlot_BackImage
   - ClosetSlot_Button
   IncreaseCollectorID: 0
   collectorKeys:
@@ -52,11 +53,12 @@ MonoBehaviour:
   - id: -1
     guid: 7e0adcdcf45855645b24f36f43ac4c1d
     keys:
-    - ClosetSlot_Free
     - ClosetSlot_Lock
     - ClosetSlot_Select
     - ClosetSlot_BodyRoot
     - ClosetSlot_HeadRoot
+    - ClosetSlot_BackRoot
     - ClosetSlot_BodyImage
     - ClosetSlot_HeadImage
+    - ClosetSlot_BackImage
     - ClosetSlot_Button

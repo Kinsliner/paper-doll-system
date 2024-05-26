@@ -19,8 +19,6 @@ namespace Ez.Tool
         
         public const string BodyNodeButton_SelectButton = "BodyNodeButton_SelectButton";
         
-        public const string ClosetSlot_Free = "ClosetSlot_Free";
-        
         public const string ClosetSlot_Lock = "ClosetSlot_Lock";
         
         public const string ClosetSlot_Select = "ClosetSlot_Select";
@@ -29,9 +27,13 @@ namespace Ez.Tool
         
         public const string ClosetSlot_HeadRoot = "ClosetSlot_HeadRoot";
         
+        public const string ClosetSlot_BackRoot = "ClosetSlot_BackRoot";
+        
         public const string ClosetSlot_BodyImage = "ClosetSlot_BodyImage";
         
         public const string ClosetSlot_HeadImage = "ClosetSlot_HeadImage";
+        
+        public const string ClosetSlot_BackImage = "ClosetSlot_BackImage";
         
         public const string ClosetSlot_Button = "ClosetSlot_Button";
     }
