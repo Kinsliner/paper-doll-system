@@ -12,6 +12,7 @@ public class PaperDollController
         public BodyNode node;
         public GameObject attachObject;
         public Sprite icon;
+        public Dictionary<BodyDirection, int> sortOrders = new Dictionary<BodyDirection, int>();
     }
 
     private List<PaperDollCache> paperDollCaches = new List<PaperDollCache>();
@@ -27,6 +28,7 @@ public class PaperDollController
             paperDollCache.node = p.node;
             paperDollCache.attachObject = ModelAssetManager.LoadModelAsset(p.assetID);
             paperDollCache.icon = Resources.Load<Sprite>(p.iconPath);
+            p.sideDatas.ForEach(s => paperDollCache.sortOrders.Add(s.direction, s.overrideSortOrder));
             paperDollCaches.Add(paperDollCache);
         });
     }
@@ -97,7 +99,15 @@ public class PaperDollController
         if (paperDollCache != null && currentPaperDoll != null)
         {
             currentPaperDoll.Attach(paperDollCache);
-            currentPaperDoll.PlayAnim("Idle");
+            currentPaperDoll.SetDirection(currentPaperDoll.CurrentDirection);
+        }
+    }
+
+    public void Turn(BodyDirection currentDirection)
+    {
+        if (currentPaperDoll != null)
+        {
+            currentPaperDoll.SetDirection(currentDirection);
         }
     }
 }
