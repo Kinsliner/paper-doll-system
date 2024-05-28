@@ -21,6 +21,9 @@ public class PaperDollController
     private List<PaperDollCache> paperDollCaches = new List<PaperDollCache>();
     private PaperDoll currentPaperDoll;
 
+    /// <summary>
+    /// 初始化
+    /// </summary>
     public void Init()
     {
         List<PaperDollData> paperDollDatas = PaperDollManager.GetPaperDollDatas();
@@ -36,9 +39,20 @@ public class PaperDollController
         });
     }
 
+    /// <summary>
+    /// 取得該部位的所有Cache資料
+    /// </summary>
     public List<PaperDollCache> GetPaperDollCaches(BodyNode node)
     {
         return paperDollCaches.FindAll(p => p.node == node);
+    }
+
+    /// <summary>
+    /// 取得所有Cache資料
+    /// </summary>
+    public List<PaperDollCache> GetPaperDollCaches()
+    {
+        return new List<PaperDollCache>(paperDollCaches);
     }
 
     /// <summary>
@@ -60,13 +74,11 @@ public class PaperDollController
     /// <summary>
     /// 設置當前PaperDoll
     /// </summary>
-    /// <param name="paperDoll"></param>
-    /// <param name="bodyNodes"></param>
-    public void SetupPaperDoll(PaperDoll paperDoll, params BodyNode[] bodyNodes)
+    public void SetupPaperDoll(PaperDoll paperDoll, params BodyNode[] initNodes)
     {
         currentPaperDoll = paperDoll;
 
-        foreach (BodyNode node in bodyNodes)
+        foreach (BodyNode node in initNodes)
         {
             var paperDollCache = paperDollCaches.Find(p => p.node == node);
             Attach(paperDollCache);
@@ -102,7 +114,7 @@ public class PaperDollController
         if (paperDollCache != null && currentPaperDoll != null)
         {
             currentPaperDoll.Attach(paperDollCache);
-            currentPaperDoll.SetDirection(currentPaperDoll.CurrentDirection);
+            currentPaperDoll.SetDirectionAndAnim(currentPaperDoll.CurrentDirection);
         }
     }
 
@@ -113,7 +125,7 @@ public class PaperDollController
     {
         if (currentPaperDoll != null)
         {
-            currentPaperDoll.SetDirection(currentDirection);
+            currentPaperDoll.SetDirectionAndAnim(currentDirection);
         }
     }
 

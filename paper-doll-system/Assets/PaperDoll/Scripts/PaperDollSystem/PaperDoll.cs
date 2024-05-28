@@ -112,26 +112,33 @@ public class PaperDoll : MonoBehaviour
     /// <summary>
     /// 設定紙娃娃方向，會連動所有部位統一設定
     /// </summary>
-    public void SetDirection(BodyDirection direction)
+    public void SetDirectionAndAnim(BodyDirection direction)
     {
-        currentDirection = direction;
+        SetDirection(direction);
 
         switch (direction)
         {
             case BodyDirection.Front:
-                PlayAnim("Idle");
+                ResetAnim("Idle");
                 break;
             case BodyDirection.Back:
-                PlayAnim("IdleBack");
+                ResetAnim("IdleBack");
                 break;
             case BodyDirection.Left:
-                PlayAnim("IdleSideLeft");
+                ResetAnim("IdleSideLeft");
                 break;
             case BodyDirection.Right:
-                PlayAnim("IdleSideRight");
+                ResetAnim("IdleSideRight");
                 break;
         }
+    }
 
+    /// <summary>
+    /// 設定方向
+    /// </summary>
+    public void SetDirection(BodyDirection direction)
+    {
+        currentDirection = direction;
         SetOrderByDirection(direction);
     }
 
@@ -139,6 +146,28 @@ public class PaperDoll : MonoBehaviour
     /// 播放動畫，會連動所有部位統一播放
     /// </summary>
     public void PlayAnim(string animName)
+    {
+        foreach (var part in parts)
+        {
+            if (part.attachObject == null)
+            {
+                continue;
+            }
+
+            var animator = part.attachObject.GetComponent<Animator>();
+            if (animator == null)
+            {
+                continue;
+            }
+
+            animator.Play(animName);
+        }
+    }
+
+    /// <summary>
+    /// 重置動畫
+    /// </summary>
+    public void ResetAnim(string animName)
     {
         foreach (var part in parts)
         {
