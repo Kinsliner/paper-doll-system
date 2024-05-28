@@ -182,6 +182,26 @@ public static class ValueExtension
     }
 
     /// <summary>
+    /// 建立一個用於表示遮罩的Vector2，傳入的Vector2的數值會被正規化為0或1
+    /// </summary>
+    public static Vector2 ToMask(this Vector2 v2)
+    {
+        v2.x = v2.x == 0 ? 0 : 1;
+        v2.y = v2.y == 0 ? 0 : 1;
+        return v2;
+    }
+
+    /// <summary>
+    /// 乘上遮罩
+    /// </summary>
+    public static Vector2 Mask(this Vector2 v2, Vector2 mask)
+    {
+        mask = mask.ToMask();
+
+        return new Vector2(v2.x * mask.x, v2.y * mask.y);
+    }
+
+    /// <summary>
     /// 最大值
     /// </summary>
     public static float Max(this float v, float max)
