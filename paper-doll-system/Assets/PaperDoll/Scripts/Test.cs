@@ -1,3 +1,4 @@
+using Ez.Input;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class Test : MonoBehaviour
     public PaperDoll character;
     public CharacterRoot characterRoot;
     public int testLcokID = 1;
+    public float moveSpeed = 5.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,18 @@ public class Test : MonoBehaviour
         }
 
         PaperDollManager.Controller.SetupPaperDoll(character, BodyNode.Head, BodyNode.Body);
+
+        var movement = new Movement();
+        movement.SetTarget(character.transform);
+        movement.SetPaperDoll(character);
+        movement.Init();
+        movement.Speed = moveSpeed;
+        InputSystem.Register(new KeyBoardMoveInput(), movement);
+    }
+
+    private void Update()
+    {
+        InputSystem.Update();
     }
 
     [ContextMenu("Lock")]
