@@ -5,9 +5,11 @@ using UnityEngine;
 
 public class KeyBoardMoveInput : Inputter
 {
+    public bool IsEnable { get; set; } = true;
+
     public override bool IsCheck()
     {
-        return true;
+        return IsEnable;
     }
 
     public override T ReadInput<T>()
