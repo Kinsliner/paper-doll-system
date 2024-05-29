@@ -116,31 +116,11 @@ public static class ModelAssetManager
     }
 
     /// <summary>
-    /// 清除預載資源
-    /// </summary>
-    public static void ClearPreloadAsset()
-    {
-        foreach (var preloadAssetData in preloadAssetDatas)
-        {
-            GameObject.Destroy(preloadAssetData.gameObject);
-        }
-        preloadAssetDatas.Clear();
-    }
-
-    /// <summary>
-    /// 清除資料
-    /// </summary>
-    public static void Clear()
-    {
-        ClearPreloadAsset();
-        modelAssetDic.Clear();
-    }
-
-    /// <summary>
     /// 反初始化
     /// </summary>
     public static void Uninit()
     {
-        Clear();
+        modelAssetDic.Clear();
+        preloadAssetDatas.Clear();
     }
 }
