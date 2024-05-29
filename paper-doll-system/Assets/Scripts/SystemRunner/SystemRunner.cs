@@ -46,6 +46,11 @@ namespace Ez.SystemModule
                 return attr == null ? 0 : attr.Order;
             }).ToList();
 
+            systems.ForEach(x =>
+            {
+                SystemCache.Register(x);
+            });
+
             systems.ForEach(x => x.Init());
         }
 
@@ -67,6 +72,11 @@ namespace Ez.SystemModule
         public void Uninit()
         {
             systems.ForEach(x => x.Uninit());
+
+            systems.ForEach(x =>
+            {
+                SystemCache.Unregister(x);
+            });
         }
     }
 }

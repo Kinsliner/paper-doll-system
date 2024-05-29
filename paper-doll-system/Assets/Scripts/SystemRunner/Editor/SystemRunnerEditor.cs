@@ -16,7 +16,7 @@ namespace Ez.SystemModule
 
             SystemRunner runner = (SystemRunner)target;
 
-            EditorGUILayout.LabelField("System Type Names", EditorStyles.boldLabel);
+            EditorGUILayout.LabelField("Systems", EditorStyles.boldLabel);
 
             for (int i = 0; i < runner.systemTypes.Count; i++)
             {
@@ -29,7 +29,7 @@ namespace Ez.SystemModule
                 EditorGUILayout.EndHorizontal();
             }
 
-            if (GUILayout.Button("Add System Type"))
+            if (GUILayout.Button("Add System"))
             {
                 ShowAddSystemTypeMenu(runner);
             }
