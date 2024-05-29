@@ -5,20 +5,6 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class UIKeyAttribute : PropertyAttribute
-{
-    public string GroupBy { get; private set; } = string.Empty;
-
-    public UIKeyAttribute()
-    {
-    }
-
-    public UIKeyAttribute(string groupBy)
-    {
-        GroupBy = groupBy;
-    }
-}
-
 [CustomPropertyDrawer(typeof(UIKeyAttribute))]
 public class UIKeyDrawer : PropertyDrawer
 {
