@@ -31,9 +31,6 @@ public class PaperDollSystem : ISystem
 
     public void Uninit()
     {
-        // 釋放Canvas
-        GameObject.Destroy(canvas.gameObject);
-
         // 釋放紙娃娃系統資料
         ModelAssetManager.Uninit();
         PaperDollManager.Uninit();
