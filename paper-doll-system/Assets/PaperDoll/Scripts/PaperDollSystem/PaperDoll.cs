@@ -119,16 +119,16 @@ public class PaperDoll : MonoBehaviour
         switch (direction)
         {
             case BodyDirection.Front:
-                ResetAnim("Idle");
+                ResetAnim("IdleFront");
                 break;
             case BodyDirection.Back:
                 ResetAnim("IdleBack");
                 break;
             case BodyDirection.Left:
-                ResetAnim("IdleSideLeft");
+                ResetAnim("IdleLeft");
                 break;
             case BodyDirection.Right:
-                ResetAnim("IdleSideRight");
+                ResetAnim("IdleRight");
                 break;
         }
     }

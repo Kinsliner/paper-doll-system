@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class PaperDollController
 {
-    public Action<PaperDoll> OnPaperDollSetEvent;
-    public Action<PaperDollCache> OnLockEvent;
-    public Action<PaperDollCache> OnUnlockEvent;
-
     public class PaperDollCache
     {
         public int id;
@@ -17,6 +13,10 @@ public class PaperDollController
         public Dictionary<BodyDirection, int> sortOrders = new Dictionary<BodyDirection, int>();
         public bool isLocked = false;
     }
+
+    public Action<PaperDoll> OnPaperDollSetEvent;
+    public Action<PaperDollCache> OnLockEvent;
+    public Action<PaperDollCache> OnUnlockEvent;
 
     private List<PaperDollCache> paperDollCaches = new List<PaperDollCache>();
     private PaperDoll currentPaperDoll;
@@ -56,44 +56,56 @@ public class PaperDollController
     }
 
     /// <summary>
-    /// 初始化PaperDoll
+    /// 從紙娃娃上取得部位Cache
     /// </summary>
-    /// <param name="paperDoll"></param>
-    public void InitPaperDoll(PaperDoll paperDoll)
+    public List<PaperDollCache> GetCachesOnPaperDoll()
+    {
+        List<PaperDollCache> caches = new List<PaperDollCache>();
+        var bodyNodes = Enum.GetValues(typeof(BodyNode));
+        foreach (BodyNode node in bodyNodes)
+        {
+            PaperDollCache cache = currentPaperDoll.GetCache(node);
+            if (cache != null)
+            {
+                caches.Add(cache);
+            }
+        }
+        return caches;
+    }
+
+    /// <summary>
+    /// 設置當前PaperDoll，並預設頭部和身體
+    /// </summary>
+    public void SetupPaperDoll(PaperDoll paperDoll)
+    {
+        SetupPaperDoll(paperDoll, BodyNode.Head, BodyNode.Body);
+    }
+
+    /// <summary>
+    /// 設置當前PaperDoll
+    /// </summary>
+    public void SetupPaperDoll(PaperDoll paperDoll, params BodyNode[] defaultNodes)
     {
         currentPaperDoll = paperDoll;
 
         var bodyNodes = Enum.GetValues(typeof(BodyNode));
+        var currentCaches = GetCachesOnPaperDoll();
         foreach (BodyNode node in bodyNodes)
         {
-            var paperDollCache = paperDollCaches.Find(p => p.node == node);
-            Attach(paperDollCache);
+            var cache = currentCaches.Find(p => p.node == node);
+            if (cache != null)
+            {
+                Attach(cache);
+            }
+            else
+            {
+                if (Array.Exists(defaultNodes, p => p == node))
+                {
+                    var defaultCache = paperDollCaches.Find(p => p.node == node);
+                    Attach(defaultCache);
+                }
+            }
         }
-    }
-
-    /// <summary>
-    /// 設置當前PaperDoll
-    /// </summary>
-    public void SetupPaperDoll(PaperDoll paperDoll, params BodyNode[] initNodes)
-    {
-        currentPaperDoll = paperDoll;
-
-        foreach (BodyNode node in initNodes)
-        {
-            var paperDollCache = paperDollCaches.Find(p => p.node == node);
-            Attach(paperDollCache);
-        }
-
-        OnPaperDollSetEvent?.Invoke(currentPaperDoll);
-    }
-
-    /// <summary>
-    /// 設置當前PaperDoll
-    /// </summary>
-    public void SetupPaperDoll(PaperDoll paperDoll)
-    {
-        currentPaperDoll = paperDoll;
-
         OnPaperDollSetEvent?.Invoke(currentPaperDoll);
     }
 
@@ -155,5 +167,12 @@ public class PaperDollController
             find.isLocked = false;
             OnUnlockEvent?.Invoke(find);
         }
+    }
+
+    /// <summary>
+    /// 反初始化
+    /// </summary>
+    public void Uninit()
+    {
     }
 }

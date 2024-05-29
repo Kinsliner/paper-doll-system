@@ -19,10 +19,10 @@ public class ClosetPanelUI : MonoBehaviour
     private int slotPerPage = 10;
 
     private PaperDollController paperDollController;
+    private PaperDoll currentPaperDoll;
     private List<BodyNodeButton> bodyNodeButtons = new List<BodyNodeButton>();
     private List<ClosetSlot> closetSlots = new List<ClosetSlot>();
     private List<PaperDollController.PaperDollCache> currentCaches = new List<PaperDollController.PaperDollCache>();
-    private PaperDoll currentPaperDoll;
     private BodyNode currentDisplayNode = BodyNode.Head;
     private int currentPage = 0;
     private int maxPage = 0;

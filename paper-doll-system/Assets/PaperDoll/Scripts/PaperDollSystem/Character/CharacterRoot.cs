@@ -6,11 +6,16 @@ using UnityEngine;
 
 public class CharacterRoot : MonoBehaviour
 {
+    public bool IsActive { get; set; }
+
     [SerializeField]
     private Transform root;
 
     private PaperDollController paperDollController;
 
+    /// <summary>
+    /// 初始化
+    /// </summary>
     public void Init()
     {
         paperDollController = PaperDollManager.Controller;
@@ -25,6 +30,10 @@ public class CharacterRoot : MonoBehaviour
     private void OnPaperDollSet(PaperDoll doll)
     {
         if (doll == null)
+        {
+            return;
+        }
+        if (IsActive == false)
         {
             return;
         }

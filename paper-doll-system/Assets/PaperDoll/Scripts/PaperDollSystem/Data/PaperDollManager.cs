@@ -1,4 +1,5 @@
 using Ez.Tool;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -10,6 +11,9 @@ public static class PaperDollManager
     private static EzDataLoader ezDataLoader = new EzDataLoader(streamingAssetPath);
     private static Dictionary<int, PaperDollData> paperDollDic = new Dictionary<int, PaperDollData>();
 
+    /// <summary>
+    /// 初始化
+    /// </summary>
     public static void Init()
     {
         InitData();
@@ -18,6 +22,9 @@ public static class PaperDollManager
         Controller.Init();
     }
 
+    /// <summary>
+    /// 初始化資料
+    /// </summary>
     public static void InitData()
     {
         paperDollDic.Clear();
@@ -28,6 +35,9 @@ public static class PaperDollManager
         });
     }
 
+    /// <summary>
+    /// 取得紙娃娃資料
+    /// </summary>
     public static PaperDollData GetPaperDollData(int id)
     {
         if (paperDollDic.ContainsKey(id))
@@ -37,8 +47,20 @@ public static class PaperDollManager
         return null;
     }
 
+    /// <summary>
+    /// 取得所有紙娃娃資料
+    /// </summary>
+    /// <returns></returns>
     public static List<PaperDollData> GetPaperDollDatas()
     {
         return new List<PaperDollData>(paperDollDic.Values);
+    }
+
+    /// <summary>
+    /// 反初始化
+    /// </summary>
+    public static void Uninit()
+    {
+        Controller = null;
     }
 }
