@@ -41,7 +41,7 @@ namespace Example
                 {
                     character.SetMoveable(false);
                     PaperDollSystem.ActivePanel();
-                    PaperDollSystem.SetPaperDoll(character.PaperDoll);
+                    PaperDollSystem.SetPaperDoll(character.PaperDoll, BodyDirection.Front);
                 }
                 else
                 {

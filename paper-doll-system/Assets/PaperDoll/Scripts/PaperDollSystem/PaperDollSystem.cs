@@ -88,6 +88,16 @@ public class PaperDollSystem : ISystem
         PaperDollManager.Controller.SetupPaperDoll(paperDoll);
     }
 
+
+    /// <summary>
+    /// 設定紙娃娃和方向
+    /// </summary>
+    public static void SetPaperDoll(PaperDoll paperDoll, BodyDirection direction)
+    {
+        PaperDollManager.Controller.SetupPaperDoll(paperDoll);
+        PaperDollManager.Controller.Turn(direction);
+    }
+
     /// <summary>
     /// 設定紙娃娃，並附加部位
     /// </summary>
