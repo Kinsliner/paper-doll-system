@@ -1,4 +1,5 @@
 using Ez.SystemModule;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,17 +28,23 @@ namespace Ez.SystemModule
         public List<string> systemTypes = new List<string>();
         private List<ISystem> systems = new List<ISystem>();
 
+        private void Start()
+        {
+            Init();
+        }
+
         public void Init()
         {
             foreach (var type in systemTypes)
             {
-                var component = System.Activator.CreateInstance(System.Type.GetType(type)) as ISystem;
-                if (component == null)
+                var t = GetType(type);
+                var system = Activator.CreateInstance(t) as ISystem;
+                if (system == null)
                 {
                     Debug.LogError($"Failed to create instance of {type}");
                     continue;
                 }
-                systems.Add(component);
+                systems.Add(system);
             }
 
             systems = systems.OrderBy(x =>
@@ -54,9 +61,19 @@ namespace Ez.SystemModule
             systems.ForEach(x => x.Init());
         }
 
-        private void Start()
+        public static Type GetType(string typeName)
         {
-            Init();
+            var type = Type.GetType(typeName);
+            if (type != null) 
+                return type;
+
+            foreach (var a in AppDomain.CurrentDomain.GetAssemblies())
+            {
+                type = a.GetType(typeName);
+                if (type != null)
+                    return type;
+            }
+            return null;
         }
 
         private void Update()
