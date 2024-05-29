@@ -35,6 +35,12 @@ namespace Ez.Input
                             behavior.IsExecuting = true;
                         }
                     }
+
+                    // Update Behavior
+                    foreach (var behavior in inputBehaviors[inputter])
+                    {
+                        behavior.UpdateInput(inputter);
+                    }
                 }
                 else
                 {
@@ -46,12 +52,6 @@ namespace Ez.Input
                             behavior.IsExecuting = false;
                         }
                     }
-                }
-
-                // Update Behavior
-                foreach (var behavior in inputBehaviors[inputter])
-                {
-                    behavior.Update(inputter);
                 }
             }
         }

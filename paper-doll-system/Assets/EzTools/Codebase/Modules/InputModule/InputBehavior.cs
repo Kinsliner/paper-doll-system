@@ -18,7 +18,7 @@ namespace Ez.Input
 
         }
 
-        public virtual void Update(Inputter inputter)
+        public virtual void UpdateInput(Inputter inputter)
         {
 
         }

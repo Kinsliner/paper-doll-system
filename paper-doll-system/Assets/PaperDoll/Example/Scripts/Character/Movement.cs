@@ -62,9 +62,9 @@ namespace Example
             animNames.Add(BodyDirection.Right, new AnimName { Idle = "IdleRight", Move = "MoveRight" });
         }
 
-        public override void Update(Inputter inputter)
+        public override void UpdateInput(Inputter inputter)
         {
-            base.Update(inputter);
+            base.UpdateInput(inputter);
 
             Vector2 move = inputter.ReadInput<Vector2>();
 
