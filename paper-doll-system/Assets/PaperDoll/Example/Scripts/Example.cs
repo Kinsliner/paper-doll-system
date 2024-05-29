@@ -18,7 +18,7 @@ namespace Example
         public void Start()
         {
             Installer.Install<SceneLoader>();
-            SceneLoader.LoadSceneAdditive(Scenes.Scenes_PaperDollSystem, OnLoadScene);
+            SceneLoader.LoadSceneAdditive(Scenes.PaperDoll_Scenes_PaperDollSystem, OnLoadScene);
         }
 
         private void OnLoadScene()
