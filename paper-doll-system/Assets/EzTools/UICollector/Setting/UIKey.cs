@@ -44,5 +44,13 @@ namespace Ez.Tool
         public const string Character_TurnLeftButton = "Character_TurnLeftButton";
         
         public const string Character_TurnRightButton = "Character_TurnRightButton";
+        
+        public const string PaperDollCanvas_Root = "PaperDollCanvas_Root";
+        
+        public const string PaperDollCanvas_ClosetPanel = "PaperDollCanvas_ClosetPanel";
+        
+        public const string PaperDollCanvas_CharacterPanel = "PaperDollCanvas_CharacterPanel";
+        
+        public const string PaperDollCanvas_CharacterRoot = "PaperDollCanvas_CharacterRoot";
     }
 }

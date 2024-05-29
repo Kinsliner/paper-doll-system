@@ -17,6 +17,7 @@ MonoBehaviour:
   - BodyNodeButton
   - ClosetSlot
   - Character
+  - PaperDollCanvas
   keys:
   - Closet_SlotRoot
   - Closet_BodyNodeButtonRoot
@@ -39,6 +40,10 @@ MonoBehaviour:
   - ClosetSlot_LockMask
   - Character_TurnLeftButton
   - Character_TurnRightButton
+  - PaperDollCanvas_Root
+  - PaperDollCanvas_ClosetPanel
+  - PaperDollCanvas_CharacterPanel
+  - PaperDollCanvas_CharacterRoot
   IncreaseCollectorID: 0
   collectorKeys:
   - id: -1
@@ -74,3 +79,10 @@ MonoBehaviour:
     keys:
     - Character_TurnLeftButton
     - Character_TurnRightButton
+  - id: -1
+    guid: 8baabfaad87876a4994725c12d2d6965
+    keys:
+    - PaperDollCanvas_Root
+    - PaperDollCanvas_ClosetPanel
+    - PaperDollCanvas_CharacterPanel
+    - PaperDollCanvas_CharacterRoot
