@@ -26,7 +26,7 @@ public class CharacterPanelUI : MonoBehaviour
         }
     }
 
-    private void OnTurnRightClick()
+    public void OnTurnRightClick()
     {
         CalculateTurnCount(1);
 
@@ -36,7 +36,7 @@ public class CharacterPanelUI : MonoBehaviour
         }
     }
 
-    private void OnTurnLeftClick()
+    public void OnTurnLeftClick()
     {
         CalculateTurnCount(-1);
 

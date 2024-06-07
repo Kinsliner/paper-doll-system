@@ -63,6 +63,22 @@ public class PaperDollSystem : ISystem
     }
 
     /// <summary>
+    /// 控制紙娃娃朝左轉
+    /// </summary>
+    public static void TurnLeftByPanel()
+    {
+        canvas.CharacterPanelUI.OnTurnLeftClick();
+    }
+
+    /// <summary>
+    /// 控制紙娃娃朝右轉
+    /// </summary>
+    public static void TurnRightByPanel()
+    {
+        canvas.CharacterPanelUI.OnTurnRightClick();
+    }
+
+    /// <summary>
     /// 鎖定紙娃娃部位
     /// </summary>
     /// <param name="id">紙娃娃資料ID</param>
