@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 202242141456448020}
   - component: {fileID: 8749781908682581178}
+  - component: {fileID: 2009375228002623000}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -48,6 +49,19 @@ MonoBehaviour:
   character: {fileID: 202242141456448020}
   paperDoll: {fileID: 6776137550765951505}
   moveSpeed: 5
+--- !u!114 &2009375228002623000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8109905244457520217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e992247a7ed91479a7d42d6da5994c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointer: {fileID: 202242141456448020}
 --- !u!1001 &4726689691558577360
 PrefabInstance:
   m_ObjectHideFlags: 0
